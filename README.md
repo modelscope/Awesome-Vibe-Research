@@ -88,6 +88,7 @@
 |---|---|---|---|---|---|---|
 | STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | [![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social)](https://github.com/stanford-oval/storm) | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
 | paperseek | 面向研究者的文献发现工具，支持自然语言检索、自动迭代查询、扩展候选论文 | agent/skill | [![GitHub stars](https://img.shields.io/github/stars/MingfengHong/paperseek?style=social)](https://github.com/MingfengHong/paperseek) | [GitHub](https://github.com/MingfengHong/paperseek) | [魔搭创空间](https://modelscope.cn/studios/HongMingfeng/PaperSeek) | - |
+| Lune | 通过 MCP 提供顶会 Paper 的 agentic search 能力，支持学术文献与科研最佳实践的 grounding | agent/tool | [![GitHub stars](https://img.shields.io/github/stars/RetrogradeLabs/lune-mcp-server?style=social)](https://github.com/RetrogradeLabs/lune-mcp-server) | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
 
 ---
 
