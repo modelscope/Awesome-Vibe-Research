@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "afterToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "command": "echo '[hook] File modified: checking Python syntax...' && python3 -m py_compile \"$(echo $CLAUDE_TOOL_INPUT | python3 -c \"import sys,json; d=json.load(sys.stdin); print(d.get('file_path',''))\" 2>/dev/null || echo '')\" 2>&1 | head -5 || true"
+      }
+    ],
+    "Stop": [
+      {
+        "command": "osascript -e 'display notification \"Claude finished the task\" with title \"Claude Code\"' 2>/dev/null || notify-send 'Claude Code' 'Task finished' 2>/dev/null || echo '[hook] Task complete.'"
+      }
+    ],
+    "beforeToolUse": [
+      {
+        "matcher": "Bash",
+        "command": "echo \"[hook] About to run Bash. Command preview logged.\""
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m py_compile *)",
+      "Bash(ls *)",
+      "Bash(cat *)"
+    ]
+  }
+}
