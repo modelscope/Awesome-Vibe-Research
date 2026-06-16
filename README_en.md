@@ -88,6 +88,7 @@ Literature search, RAG Q&A, automated survey generation, citation graph analysis
 |---|---|---|---|---|---|---|
 | STORM | Stanford's open-source knowledge curation system generating cited reports via multi-perspective question generation | agent | [![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social)](https://github.com/stanford-oval/storm) | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
 | paperseek | A researcher-oriented literature discovery tool supporting natural language queries with iterative search expansion | agent/skill | [![GitHub stars](https://img.shields.io/github/stars/MingfengHong/paperseek?style=social)](https://github.com/MingfengHong/paperseek) | [GitHub](https://github.com/MingfengHong/paperseek) | [paperseek.xyz](https://www.paperseek.xyz/) | - |
+| Lune | MCP server providing agentic search over top-tier papers, with grounding for both academic literature and research best practices | agent/tool | [![GitHub stars](https://img.shields.io/github/stars/RetrogradeLabs/lune-mcp-server?style=social)](https://github.com/RetrogradeLabs/lune-mcp-server) | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
 
 ---
 
