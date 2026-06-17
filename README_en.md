@@ -69,6 +69,7 @@ End-to-end systems from idea to paper. Agents spanning three or more stages go h
 | Auto Claude Code Research in Sleep | Automated Claude Code research workflow for unattended experiment execution | skill | [![GitHub stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | End-to-end autonomous research workflow with LLM-powered specialized agents for literature review through report writing | agent | [![GitHub stars](https://img.shields.io/github/stars/SamuelSchmidgall/AgentLaboratory?style=social)](https://github.com/SamuelSchmidgall/AgentLaboratory) | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | Open-source AI research environment with unified web & desktop experience, powered by research-focused agents and skills | agent/app | [![GitHub stars](https://img.shields.io/github/stars/Science-Discovery/Aether?style=social)](https://github.com/Science-Discovery/Aether) | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
+| EurekAgent | Environment-engineered autonomous research system for metric-driven tasks, coordinating Claude Code sessions to propose, implement, evaluate, and iterate solutions | agent | [![GitHub stars](https://img.shields.io/github/stars/THU-Team-Eureka/EurekAgent?style=social)](https://github.com/THU-Team-Eureka/EurekAgent) | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 
 ---
 
@@ -107,6 +108,7 @@ Coding, experiment running, statistical analysis, failure analysis, robustness c
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
 | RD-Agent | Automates high-value R&D processes for data and models — letting AI drive data-driven AI | agent | [![GitHub stars](https://img.shields.io/github/stars/microsoft/RD-Agent?style=social)](https://github.com/microsoft/RD-Agent) | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
+| EurekAgent | Execution environment for metric-driven research tasks, supporting Claude Code sessions for implementation, Docker-isolated evaluation, logging, and iterative optimization | agent | [![GitHub stars](https://img.shields.io/github/stars/THU-Team-Eureka/EurekAgent?style=social)](https://github.com/THU-Team-Eureka/EurekAgent) | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 
 ---
 

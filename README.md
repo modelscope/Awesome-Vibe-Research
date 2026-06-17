@@ -69,6 +69,7 @@
 | Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | [![GitHub stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=social)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | 端到端的自主研究工作流程，由 LLM 驱动的专业代理支持完成从文献综述到报告撰写的全流程 | agent | [![GitHub stars](https://img.shields.io/github/stars/SamuelSchmidgall/AgentLaboratory?style=social)](https://github.com/SamuelSchmidgall/AgentLaboratory) | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | [![GitHub stars](https://img.shields.io/github/stars/Science-Discovery/Aether?style=social)](https://github.com/Science-Discovery/Aether) | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
+| EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | [![GitHub stars](https://img.shields.io/github/stars/THU-Team-Eureka/EurekAgent?style=social)](https://github.com/THU-Team-Eureka/EurekAgent) | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 
 ---
 
@@ -107,6 +108,7 @@
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
 | RD-Agent | 实现数据与模型高价值通用研发流程的自动化，让 AI 驱动数据驱动型 AI | agent | [![GitHub stars](https://img.shields.io/github/stars/microsoft/RD-Agent?style=social)](https://github.com/microsoft/RD-Agent) | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
+| EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | [![GitHub stars](https://img.shields.io/github/stars/THU-Team-Eureka/EurekAgent?style=social)](https://github.com/THU-Team-Eureka/EurekAgent) | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 
 ---
 
