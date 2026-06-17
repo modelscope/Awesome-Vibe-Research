@@ -77,7 +77,10 @@ End-to-end systems from idea to paper. Agents spanning three or more stages go h
 
 Trend tracking, research inspiration, novelty verification, hypothesis generation. When overlapping with literature search, the deciding factor is: "Does it output a viable research question?"
 
-*🚧 No entries yet — contributions welcome!*
+| Project | Description | Type | Stars | Link | Demo | Paper |
+|---|---|---|---|---|---|---|
+| SciAgentsDiscovery | MIT open-source scientific discovery system combining knowledge graphs and multi-agent collaboration for cross-domain hypothesis generation | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;615<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
+| AutoDiscovery | AllenAI open-ended scientific discovery framework using Bayesian Surprise to find testable hypotheses from data | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;185<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2025](https://arxiv.org/abs/2506.13266) |
 
 ---
 
@@ -90,6 +93,10 @@ Literature search, RAG Q&A, automated survey generation, citation graph analysis
 | STORM | Stanford's open-source knowledge curation system generating cited reports via multi-perspective question generation | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;28.4k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
 | paperseek | A researcher-oriented literature discovery tool supporting natural language queries with iterative search expansion | agent/skill | <!--stars:MingfengHong/paperseek-->⭐&nbsp;28<!--/stars--> | [GitHub](https://github.com/MingfengHong/paperseek) | [paperseek.xyz](https://www.paperseek.xyz/) | - |
 | Lune | MCP server providing agentic search over top-tier papers, with grounding for both academic literature and research best practices | agent/tool | <!--stars:RetrogradeLabs/lune-mcp-server-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
+| PaperQA2 | High-accuracy RAG system for scientific papers, producing evidence-grounded answers with citations | python pkg | <!--stars:Future-House/paper-qa-->⭐&nbsp;8.7k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
+| OpenScholar | Retrieval-augmented scientific literature synthesis system for generating scholarly answers grounded in open corpora | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.5k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
+| paper-search-mcp | MCP/CLI/Skill for agent-facing paper search across arXiv, PubMed, bioRxiv, Semantic Scholar, OpenAlex, and more | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;1.9k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
+| Zotero-GPT | AI literature-reading plugin inside Zotero, supporting summarization, Q&A, tagging, and note assistance | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.2k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
 
@@ -97,7 +104,9 @@ Literature search, RAG Q&A, automated survey generation, citation graph analysis
 
 Experiment planning, evaluation metric design, ablation planning, protocol checking. Pure coding and experiment running go in Stage 4.
 
-*🚧 No entries yet — contributions welcome!*
+| Project | Description | Type | Stars | Link | Demo | Paper |
+|---|---|---|---|---|---|---|
+| Curie | Automated and rigorous scientific experimentation agent, spanning hypothesis clarification, execution, analysis, and reporting | agent/workflow | <!--stars:Just-Curieous/Curie-->⭐&nbsp;363<!--/stars--> | [GitHub](https://github.com/Just-Curieous/Curie) | - | [arXiv 2025](https://arxiv.org/abs/2502.16069) |
 
 ---
 
@@ -129,6 +138,7 @@ Drafting, polishing, citation verification, LaTeX assistance, rebuttal, reviewin
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
 | Academic Research Skills | Claude Code skill suite covering academic writing, polishing, submission checks, and publication workflow | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;32.2k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
+| RefChecker | Academic reference validation tool for checking citation existence, metadata errors, and likely fabricated references | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;400<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 
 ---
 

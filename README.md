@@ -77,7 +77,10 @@
 
 趋势追踪、选题灵感、新颖性验证、假说生成。与文献检索有交叉时，以"产出一个可做的研究问题"为核心判断归属。
 
-*🚧 暂无条目，欢迎贡献！*
+| 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
+|---|---|---|---|---|---|---|
+| SciAgentsDiscovery | MIT 开源的科学发现多智能体系统，结合知识图谱与 agent 协作用于跨学科假说生成 | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;615<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
+| AutoDiscovery | AllenAI 开源的开放式科学发现框架，通过 Bayesian Surprise 从数据中发现可验证假说 | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;185<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2025](https://arxiv.org/abs/2506.13266) |
 
 ---
 
@@ -90,6 +93,10 @@
 | STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;28.4k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
 | paperseek | 面向研究者的文献发现工具，支持自然语言检索、自动迭代查询、扩展候选论文 | agent/skill | <!--stars:MingfengHong/paperseek-->⭐&nbsp;33<!--/stars--> | [GitHub](https://github.com/MingfengHong/paperseek) | [魔搭创空间](https://modelscope.cn/studios/HongMingfeng/PaperSeek) | - |
 | Lune | 通过 MCP 提供顶会 Paper 的 agentic search 能力，支持学术文献与科研最佳实践的 grounding | agent/tool | <!--stars:RetrogradeLabs/lune-mcp-server-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
+| PaperQA2 | 面向科学文献的高准确 RAG 问答系统，支持基于论文证据生成带引用回答 | python 包 | <!--stars:Future-House/paper-qa-->⭐&nbsp;8.7k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
+| OpenScholar | 检索增强的科学文献综合系统，用开放语料和检索结果生成引用支撑的 scholarly answer | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.5k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
+| paper-search-mcp | 面向 agent 的论文检索 MCP/CLI/Skill，支持 arXiv、PubMed、bioRxiv、Semantic Scholar、OpenAlex 等来源 | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;1.9k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
+| Zotero-GPT | Zotero 内的 AI 文献阅读插件，支持在文献库中进行摘要、问答、标签和笔记辅助 | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.2k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
 
@@ -97,7 +104,9 @@
 
 实验方案、评价指标设计、ablation 规划、protocol 检查。纯代码实现与跑实验放 4。
 
-*🚧 暂无条目，欢迎贡献！*
+| 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
+|---|---|---|---|---|---|---|
+| Curie | 自动化且强调严谨性的科学实验 agent，从假说澄清到实验执行、分析和报告 | agent/workflow | <!--stars:Just-Curieous/Curie-->⭐&nbsp;363<!--/stars--> | [GitHub](https://github.com/Just-Curieous/Curie) | - | [arXiv 2025](https://arxiv.org/abs/2502.16069) |
 
 ---
 
@@ -129,6 +138,7 @@
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
 | Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;32.5k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
+| RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;400<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 
 ---
 
