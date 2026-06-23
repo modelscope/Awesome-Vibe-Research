@@ -153,6 +153,7 @@
 | ModelScope 科学智能 | 汇集开源 AI for Science 模型，覆盖生命/地球/物质/社会科学等方向 | platform | [Nexa Models](https://modelscope.cn/nexa/models) | [文档](https://modelscope.cn/docs/nexa/intro) |
 | Paper2Code | 多智能体系统，将学术论文自动转化为可运行的代码仓库 | agent | [GitHub](https://github.com/going-doer/Paper2Code) | [Quick Start](https://github.com/going-doer/Paper2Code#-quick-start) |
 | data-to-paper | 多 AI 智能体自主协作，从原始数据完成完整科研并生成可验证论文 | python 包 | [GitHub](https://github.com/Technion-Kishony-lab/data-to-paper) | - |
+| Manage AI Research Projects | 面向 Claude Code/Codex 的科研项目管理 Skill，用于创建可复现项目结构、审计 metadata 与结果追踪，并记录 AI workflow 资产 | skill | [GitHub](https://github.com/Devin-jun/Manage-AI-Research) | [README](https://github.com/Devin-jun/Manage-AI-Research/blob/main/README.zh-CN.md) |
 
 ---
 
