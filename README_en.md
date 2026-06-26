@@ -155,6 +155,7 @@ Code reproduction, demo experience, model & dataset publishing.
 | Paper2Code | Multi-agent system converting academic papers into runnable code repositories | agent | [GitHub](https://github.com/going-doer/Paper2Code) | [Quick Start](https://github.com/going-doer/Paper2Code#-quick-start) |
 | data-to-paper | Multi-AI-agent system that autonomously produces verifiable papers from raw data | python pkg | [GitHub](https://github.com/Technion-Kishony-lab/data-to-paper) | - |
 | Manage AI Research Projects | Agent Skill for Claude Code/Codex to scaffold reproducible research projects, audit metadata and result traceability, and record AI workflow assets | skill | [GitHub](https://github.com/Devin-jun/Manage-AI-Research) | [README](https://github.com/Devin-jun/Manage-AI-Research/blob/main/README.md) |
+| Research Network | Agent-native protocol and toolkit for verifiable AI-assisted research assets: package papers, skills, workflows, code, and evidence from a Git workspace into Walrus release snapshots, register provenance on Sui, and resolve them back through a live index, web UI, and CLI. Useful for reproducible release, archiving, and agent skill distribution; actively maintained with ongoing updates. | protocol/CLI/web | [GitHub](https://github.com/Euraxluo/research-network) · [Demo](https://research-network-web.vercel.app) | [Use CLI](https://research-network-web.vercel.app/use-cli.html) |
 
 ---
 
