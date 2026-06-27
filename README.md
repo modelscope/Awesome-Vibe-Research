@@ -140,6 +140,7 @@
 |---|---|---|---|---|---|---|
 | Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;34.7k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
 | RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;408<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
+| Research Paper Lifecycle Skills | 面向 Agent 的论文全生命周期 Skill 套件，覆盖文献综述、引用核验、投稿检查、审稿回复、artifact、幻灯片和海报 | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐ updating<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
 
 ---
 
