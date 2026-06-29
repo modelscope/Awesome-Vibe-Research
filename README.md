@@ -63,13 +63,13 @@
 | AI-Scientist | 端到端自动科学发现系统，覆盖想法生成、实验、论文和同行评审 | agent | <!--stars:SakanaAI/AI-Scientist-->⭐&nbsp;14.1k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist) | - | [Nature 2024](https://modelscope.cn/papers/2408.06292/) |
 | AI-Scientist-v2 | 基于 agentic tree search 的自动科研系统，不依赖人类模板，面向更通用的 ML 研究探索 | agent | <!--stars:SakanaAI/AI-Scientist-v2-->⭐&nbsp;6.7k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist-v2) | - | [arXiv 2025](https://modelscope.cn/papers/2504.08066/) |
 | EvoScientist | 多 agent AI scientist 系统，强调持久记忆、技能演化和端到端科研协作 | agent | <!--stars:EvoScientist/EvoScientist-->⭐&nbsp;3.9k<!--/stars--> | [GitHub](https://github.com/EvoScientist/EvoScientist) | [Demo](https://evoscientist.ai) | [arXiv 2025](https://modelscope.cn/papers/2603.08127/) |
-| nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;23.8k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
+| nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;24k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
 | AutoResearchClaw | 自主、自进化的多阶段研究流水线，从研究想法推进到论文产物 | agent | <!--stars:aiming-lab/AutoResearchClaw-->⭐&nbsp;13.6k<!--/stars--> | [GitHub](https://github.com/aiming-lab/AutoResearchClaw) | [Demo](https://openclaw.ai) | [arXiv 2025](https://modelscope.cn/papers/2605.22662/) |
-| autoresearch | Andrej Karpathy 的自主 ML 研究代理，在单 GPU 上自动运行实验并改进模型 | agent | <!--stars:karpathy/autoresearch-->⭐&nbsp;88.9k<!--/stars--> | [GitHub](https://github.com/karpathy/autoresearch) | - | - |
-| Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;12.7k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
+| autoresearch | Andrej Karpathy 的自主 ML 研究代理，在单 GPU 上自动运行实验并改进模型 | agent | <!--stars:karpathy/autoresearch-->⭐&nbsp;89k<!--/stars--> | [GitHub](https://github.com/karpathy/autoresearch) | - | - |
+| Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;12.8k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | 端到端的自主研究工作流程，由 LLM 驱动的专业代理支持完成从文献综述到报告撰写的全流程 | agent | <!--stars:SamuelSchmidgall/AgentLaboratory-->⭐&nbsp;5.7k<!--/stars--> | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;66<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
-| EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;61<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;62<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 
 ---
 
@@ -90,7 +90,7 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;29.5k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
+| STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;29.6k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
 | paperseek | 面向研究者的文献发现工具，支持自然语言检索、自动迭代查询、扩展候选论文 | agent/skill | <!--stars:MingfengHong/paperseek-->⭐&nbsp;129<!--/stars--> | [GitHub](https://github.com/MingfengHong/paperseek) | [魔搭创空间](https://modelscope.cn/studios/HongMingfeng/PaperSeek) | - |
 | OpenAlex Search Skill | OpenAlex 是开放的全球学术图谱，覆盖论文、作者、机构、期刊和引用关系。该 Codex skill 将 OpenAlex works 检索封装为可复用命令行流程。| skill | <!--stars:XiaokunDuan/openalex_search-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/XiaokunDuan/openalex_search) | [Skill](https://github.com/XiaokunDuan/openalex_search/blob/main/openalex_search/SKILL.md) | - |
 | Lune | 通过 MCP 提供顶会 Paper 的 agentic search 能力，支持学术文献与科研最佳实践的 grounding | agent/tool | <!--stars:RetrogradeLabs/lune-mcp-server-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
@@ -118,7 +118,7 @@
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
 | RD-Agent | 实现数据与模型高价值通用研发流程的自动化，让 AI 驱动数据驱动型 AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;13.7k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
-| EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;61<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;62<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 
 ---
 
@@ -138,7 +138,7 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;34.9k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
+| Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;35.1k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
 | RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;408<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 
 ---
