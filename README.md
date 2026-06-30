@@ -129,6 +129,7 @@
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
 | PaperBanana | 多 agent 学术插图自动化生成框架，从文本描述生成出版级图表和统计图 | agent | <!--stars:dwzhu-pku/PaperBanana-->⭐&nbsp;6.7k<!--/stars--> | [GitHub](https://github.com/dwzhu-pku/PaperBanana) | [Demo](https://dwzhu-pku.github.io/PaperBanana/) | [arXiv 2025](https://modelscope.cn/papers/2601.23265/) |
+| codex-paper-figure-skill | 面向 Codex 的论文插图生成 Skill，将论文段落、方法描述和图示想法转化为可编辑的 draw.io 学术图 | skill | <!--stars:pengqianhan/codex-paper-figure-skill-->⭐ updating<!--/stars--> | [GitHub](https://github.com/pengqianhan/codex-paper-figure-skill) | - | - |
 
 ---
 
