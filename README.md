@@ -70,6 +70,7 @@
 | AgentLaboratory | 端到端的自主研究工作流程，由 LLM 驱动的专业代理支持完成从文献综述到报告撰写的全流程 | agent | <!--stars:SamuelSchmidgall/AgentLaboratory-->⭐&nbsp;5.7k<!--/stars--> | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;66<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
 | EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;64<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| InternAgent | 面向长程自主科学发现的统一 agent 框架，支持假设生成、自动实验执行、论文复现、记忆模块和 Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐ updating<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
 
 ---
 
