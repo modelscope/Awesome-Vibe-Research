@@ -129,6 +129,7 @@ Publication-quality figures, schematic generation, data dashboards. Slides/poste
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
 | PaperBanana | Multi-agent framework for automated academic illustration, generating publication-ready charts from text descriptions | agent | <!--stars:dwzhu-pku/PaperBanana-->⭐&nbsp;6.6k<!--/stars--> | [GitHub](https://github.com/dwzhu-pku/PaperBanana) | [Demo](https://dwzhu-pku.github.io/PaperBanana/) | [arXiv 2025](https://modelscope.cn/papers/2601.23265/) |
+| codex-paper-figure-skill | Codex skill that turns paper sections, method descriptions, and figure concepts into editable draw.io academic figures | skill | <!--stars:pengqianhan/codex-paper-figure-skill-->⭐ updating<!--/stars--> | [GitHub](https://github.com/pengqianhan/codex-paper-figure-skill) | - | - |
 
 ---
 
