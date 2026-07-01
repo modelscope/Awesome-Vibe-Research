@@ -155,6 +155,7 @@
 | Paper2Code | 多智能体系统，将学术论文自动转化为可运行的代码仓库 | agent | [GitHub](https://github.com/going-doer/Paper2Code) | [Quick Start](https://github.com/going-doer/Paper2Code#-quick-start) |
 | data-to-paper | 多 AI 智能体自主协作，从原始数据完成完整科研并生成可验证论文 | python 包 | [GitHub](https://github.com/Technion-Kishony-lab/data-to-paper) | - |
 | Manage AI Research Projects | 面向 Claude Code/Codex 的科研项目管理 Skill，用于创建可复现项目结构、审计 metadata 与结果追踪，并记录 AI workflow 资产 | skill | [GitHub](https://github.com/Devin-jun/Manage-AI-Research) | [README](https://github.com/Devin-jun/Manage-AI-Research/blob/main/README.zh-CN.md) |
+| Research Network | 面向 AI/agent 辅助科研的可验证研究资产协议与工具链：将 Git 工作区中的 paper、skill、workflow、code 与 evidence 打包发布，并通过 live index、Web UI 与 CLI 解析回原始内容，适合科研产物复现、发布、归档和 agent skill 分发。 | protocol/tool | [GitHub](https://github.com/Euraxluo/research-network) · [Demo](https://research-network-web.vercel.app) | [使用指引](https://research-network-web.vercel.app/use-cli.html) |
 
 ---
 
