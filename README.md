@@ -71,6 +71,7 @@
 | Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;67<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
 | EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;69<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | 面向长程自主科学发现的统一 agent 框架，支持假设生成、自动实验执行、论文复现、记忆模块和 Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐&nbsp;1.4k<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
+| Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐ updating<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
 
 ---
 
