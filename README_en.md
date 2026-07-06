@@ -71,6 +71,7 @@ End-to-end systems from idea to paper. Agents spanning three or more stages go h
 | Aether | Open-source AI research environment with unified web & desktop experience, powered by research-focused agents and skills | agent/app | <!--stars:Science-Discovery/Aether-->⭐&nbsp;65<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
 | EurekAgent | Environment-engineered autonomous research system for metric-driven tasks, coordinating Claude Code sessions to propose, implement, evaluate, and iterate solutions | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;55<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | Unified agentic framework for long-horizon autonomous scientific discovery, covering hypothesis generation, automated experimentation, paper reproduction, memory, and Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐ updating<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
+| Tashan Research Skills | 16 research skills built by the Tashan team at UCAS, organized into literature evidence, ideation, expression, collaboration memory, and tool evaluation; each skill ships with its own scripts, templates, and tests | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐ updating<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
 
 ---
 
