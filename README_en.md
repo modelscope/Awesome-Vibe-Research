@@ -122,6 +122,7 @@ Coding, experiment running, statistical analysis, failure analysis, robustness c
 |---|---|---|---|---|---|---|
 | RD-Agent | Automates high-value R&D processes for data and models — letting AI drive data-driven AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;13.5k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
 | EurekAgent | Execution environment for metric-driven research tasks, supporting Claude Code sessions for implementation, Docker-isolated evaluation, logging, and iterative optimization | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;55<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| Jacobian | MCP server, CLI, and Python library for exact computation and conjecture testing across polynomial maps, linear algebra, and graph algorithms | tool | <!--stars:morluto/jacobian-->⭐ updating<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
 
 ---
 
