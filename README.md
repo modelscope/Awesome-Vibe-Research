@@ -100,6 +100,7 @@
 | PaperQA2 | 面向科学文献的高准确 RAG 问答系统，支持基于论文证据生成带引用回答 | python 包 | <!--stars:Future-House/paper-qa-->⭐&nbsp;9k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
 | OpenScholar | 检索增强的科学文献综合系统，用开放语料和检索结果生成引用支撑的 scholarly answer | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.6k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
 | paper-search-mcp | 面向 agent 的论文检索 MCP/CLI/Skill，支持 arXiv、PubMed、bioRxiv、Semantic Scholar、OpenAlex 等来源 | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;2.3k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
+| Academic Paper Search | 面向 Codex 和 Claude Code 的论文检索 Skill/MCP，跨 Crossref、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 DOI/PMID 核验与引用导出 | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐ updating<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [开题检索实测](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
 | Zotero-GPT | Zotero 内的 AI 文献阅读插件，支持在文献库中进行摘要、问答、标签和笔记辅助 | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.3k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
