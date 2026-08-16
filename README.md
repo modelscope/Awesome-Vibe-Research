@@ -145,6 +145,7 @@
 | Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;42.6k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
 | RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;466<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 | Research Paper Lifecycle Skills | 面向 Agent 的论文全生命周期 Skill 套件，覆盖文献综述、引用核验、投稿检查、审稿回复、artifact、幻灯片和海报 | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐&nbsp;29<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
+| ScholarCopilot | 开源学术写作助手，联合文本续写与上下文感知的论文检索，在生成过程中建议并插入相关引用 | tool | <!--stars:TIGER-AI-Lab/ScholarCopilot-->⭐&nbsp;251<!--/stars--> | [GitHub](https://github.com/TIGER-AI-Lab/ScholarCopilot) | [Demo](https://huggingface.co/spaces/TIGER-Lab/ScholarCopilot) | [COLM 2025](https://arxiv.org/abs/2504.00824) |
 
 ---
 

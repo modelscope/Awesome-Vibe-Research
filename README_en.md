@@ -145,6 +145,7 @@ Drafting, polishing, citation verification, LaTeX assistance, rebuttal, reviewin
 | Academic Research Skills | Claude Code skill suite covering academic writing, polishing, submission checks, and publication workflow | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;32.5k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
 | RefChecker | Academic reference validation tool for checking citation existence, metadata errors, and likely fabricated references | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;402<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 | Research Paper Lifecycle Skills | Agent Skills package for literature review, citation verification, submission checks, rebuttals, artifacts, slides, and posters | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐ updating<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
+| ScholarCopilot | Open-source academic writing assistant that jointly performs text completion and context-aware paper retrieval to suggest and insert relevant citations while drafting | tool | <!--stars:TIGER-AI-Lab/ScholarCopilot-->⭐&nbsp;251<!--/stars--> | [GitHub](https://github.com/TIGER-AI-Lab/ScholarCopilot) | [Demo](https://huggingface.co/spaces/TIGER-Lab/ScholarCopilot) | [COLM 2025](https://arxiv.org/abs/2504.00824) |
 
 ---
 
