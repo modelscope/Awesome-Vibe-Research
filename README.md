@@ -68,7 +68,7 @@
 | nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;40.5k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
 | AutoResearchClaw | 自主、自进化的多阶段研究流水线，从研究想法推进到论文产物 | agent | <!--stars:aiming-lab/AutoResearchClaw-->⭐&nbsp;14.4k<!--/stars--> | [GitHub](https://github.com/aiming-lab/AutoResearchClaw) | [Demo](https://openclaw.ai) | [arXiv 2025](https://modelscope.cn/papers/2605.22662/) |
 | autoresearch | Andrej Karpathy 的自主 ML 研究代理，在单 GPU 上自动运行实验并改进模型 | agent | <!--stars:karpathy/autoresearch-->⭐&nbsp;95.5k<!--/stars--> | [GitHub](https://github.com/karpathy/autoresearch) | - | - |
-| Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;15.9k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
+| Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;16k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | 端到端的自主研究工作流程，由 LLM 驱动的专业代理支持完成从文献综述到报告撰写的全流程 | agent | <!--stars:SamuelSchmidgall/AgentLaboratory-->⭐&nbsp;5.8k<!--/stars--> | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;72<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
 | EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;82<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
@@ -112,8 +112,8 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐ updating<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
-| Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐ updating<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+| Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;82.1k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
+| Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐&nbsp;66.2k<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
 
 ---
 
