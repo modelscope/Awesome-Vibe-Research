@@ -17,12 +17,13 @@
   <a href="#0--全流程端到端自动科研">🧪 全流程</a> •
   <a href="#1--方向扫描与问题定义">🔭 方向扫描</a> •
   <a href="#2--文献研究检索精读综述与引用网络">📚 文献研究</a> •
-  <a href="#3--方法设计">🧩 方法设计</a> •
-  <a href="#4--实验执行与分析">⚗️ 实验执行</a> •
-  <a href="#5--科学可视化论文插图科学绘图与可视化表达">📊 可视化</a> •
-  <a href="#6--论文写作投稿与同行评审">✍️ 写作</a> •
-  <a href="#7--复现发布与归档">📦 复现发布</a> •
-  <a href="#8--传播教学与影响力分析">📡 传播</a> •
+  <a href="#3--数据获取与制备">🗃️ 数据</a> •
+  <a href="#4--方法设计">🧩 方法设计</a> •
+  <a href="#5--实验执行与分析">⚗️ 实验执行</a> •
+  <a href="#6--科学可视化论文插图科学绘图与可视化表达">📊 可视化</a> •
+  <a href="#7--论文写作投稿与同行评审">✍️ 写作</a> •
+  <a href="#8--复现发布与归档">📦 复现发布</a> •
+  <a href="#9--传播教学与影响力分析">📡 传播</a> •
   <a href="#-如何贡献">🤝 贡献</a>
 </p>
 
@@ -36,7 +37,7 @@
 
 ## 🗺️ 科研流程地图
 
-下表是我们对科研生命周期的 **9 阶段**拆分。每个阶段列出了"典型问题"和"可沉淀的 AI 辅助组件类型"。正文按阶段展开条目表，收录已知最好的项目、skill、workflow。
+下表是我们对科研生命周期的 **10 阶段**拆分。每个阶段列出了"典型问题"和"可沉淀的 AI 辅助组件类型"。正文按阶段展开条目表，收录已知最好的项目、skill、workflow。
 
 > 💡 **如果你觉得某个阶段的条目缺失或可以补充——直接在对应表格中添加一行。**
 
@@ -45,12 +46,13 @@
 | 🔄 0.全流程 | 覆盖以下多个环节和问题 | — |
 | 🔭 1. 方向扫描和问题定义 | 这个领域最近发生了什么？什么问题值得做、可做、能验证？ | trend scanner、paper radar、venue tracker；idea generator、novelty checker、hypothesis workflow |
 | 📚 2. 文献研究 | 相关工作怎么找、读、比、写？ | literature review workflow、paper reading skill、citation graph agent |
-| 🧩 3. 方法设计 | 方案、实验和评价指标如何设计？ | experiment design skill、ablation planner、protocol checker |
-| ⚗️ 4. 实验执行与分析 | 如何写代码、跑实验、记录失败？结果是否可信，误差来自哪里？ | experiment runner、statistical analysis skill、failure analysis workflow、robustness checker |
-| 📊 5. 可视化 | 图表是否讲清楚了科学问题？ | figure generation agent、visualization critique skill |
-| ✍️ 6. 论文写作 | 如何组织论文、引用、补实验？ | paper writing workflow、citation verifier、rebuttal assistant |
-| 📦 7. 复现发布 | 如何让别人复现和使用？ | artifact packaging workflow、model card、data card、reproducibility checklist |
-| 📡 8. 传播影响 | 论文发表后如何追踪影响？如何构造自己的学术影响力 | impact analysis tool、social summary skill、citation monitor |
+| 🗃️ 3. 数据获取与制备 | 原始数据在哪里？如何合规、可复现地抓取、解析、清洗并保留来源？ | web/data crawler、document parser、data extraction agent、provenance workflow |
+| 🧩 4. 方法设计 | 方案、实验和评价指标如何设计？ | experiment design skill、ablation planner、protocol checker |
+| ⚗️ 5. 实验执行与分析 | 如何写代码、跑实验、记录失败？结果是否可信，误差来自哪里？ | experiment runner、statistical analysis skill、failure analysis workflow、robustness checker |
+| 📊 6. 可视化 | 图表是否讲清楚了科学问题？ | figure generation agent、visualization critique skill |
+| ✍️ 7. 论文写作 | 如何组织论文、引用、补实验？ | paper writing workflow、citation verifier、rebuttal assistant |
+| 📦 8. 复现发布 | 如何让别人复现和使用？ | artifact packaging workflow、model card、data card、reproducibility checklist |
+| 📡 9. 传播影响 | 论文发表后如何追踪影响？如何构造自己的学术影响力 | impact analysis tool、social summary skill、citation monitor |
 
 ---
 
@@ -60,18 +62,19 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| AI-Scientist | 端到端自动科学发现系统，覆盖想法生成、实验、论文和同行评审 | agent | <!--stars:SakanaAI/AI-Scientist-->⭐&nbsp;14.3k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist) | - | [Nature 2024](https://modelscope.cn/papers/2408.06292/) |
-| AI-Scientist-v2 | 基于 agentic tree search 的自动科研系统，不依赖人类模板，面向更通用的 ML 研究探索 | agent | <!--stars:SakanaAI/AI-Scientist-v2-->⭐&nbsp;6.9k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist-v2) | - | [arXiv 2025](https://modelscope.cn/papers/2504.08066/) |
-| EvoScientist | 多 agent AI scientist 系统，强调持久记忆、技能演化和端到端科研协作 | agent | <!--stars:EvoScientist/EvoScientist-->⭐&nbsp;4.4k<!--/stars--> | [GitHub](https://github.com/EvoScientist/EvoScientist) | [Demo](https://evoscientist.ai) | [arXiv 2025](https://modelscope.cn/papers/2603.08127/) |
-| nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;32.4k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
-| AutoResearchClaw | 自主、自进化的多阶段研究流水线，从研究想法推进到论文产物 | agent | <!--stars:aiming-lab/AutoResearchClaw-->⭐&nbsp;13.9k<!--/stars--> | [GitHub](https://github.com/aiming-lab/AutoResearchClaw) | [Demo](https://openclaw.ai) | [arXiv 2025](https://modelscope.cn/papers/2605.22662/) |
-| autoresearch | Andrej Karpathy 的自主 ML 研究代理，在单 GPU 上自动运行实验并改进模型 | agent | <!--stars:karpathy/autoresearch-->⭐&nbsp;92.6k<!--/stars--> | [GitHub](https://github.com/karpathy/autoresearch) | - | - |
-| Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;14.1k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
+| AI-Scientist | 端到端自动科学发现系统，覆盖想法生成、实验、论文和同行评审 | agent | <!--stars:SakanaAI/AI-Scientist-->⭐&nbsp;14.5k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist) | - | [Nature 2024](https://modelscope.cn/papers/2408.06292/) |
+| AI-Scientist-v2 | 基于 agentic tree search 的自动科研系统，不依赖人类模板，面向更通用的 ML 研究探索 | agent | <!--stars:SakanaAI/AI-Scientist-v2-->⭐&nbsp;7.1k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist-v2) | - | [arXiv 2025](https://modelscope.cn/papers/2504.08066/) |
+| EvoScientist | 多 agent AI scientist 系统，强调持久记忆、技能演化和端到端科研协作 | agent | <!--stars:EvoScientist/EvoScientist-->⭐&nbsp;4.7k<!--/stars--> | [GitHub](https://github.com/EvoScientist/EvoScientist) | [Demo](https://evoscientist.ai) | [arXiv 2025](https://modelscope.cn/papers/2603.08127/) |
+| nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;40.5k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
+| AutoResearchClaw | 自主、自进化的多阶段研究流水线，从研究想法推进到论文产物 | agent | <!--stars:aiming-lab/AutoResearchClaw-->⭐&nbsp;14.4k<!--/stars--> | [GitHub](https://github.com/aiming-lab/AutoResearchClaw) | [Demo](https://openclaw.ai) | [arXiv 2025](https://modelscope.cn/papers/2605.22662/) |
+| autoresearch | Andrej Karpathy 的自主 ML 研究代理，在单 GPU 上自动运行实验并改进模型 | agent | <!--stars:karpathy/autoresearch-->⭐&nbsp;95.5k<!--/stars--> | [GitHub](https://github.com/karpathy/autoresearch) | - | - |
+| Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;16k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | 端到端的自主研究工作流程，由 LLM 驱动的专业代理支持完成从文献综述到报告撰写的全流程 | agent | <!--stars:SamuelSchmidgall/AgentLaboratory-->⭐&nbsp;5.8k<!--/stars--> | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
-| Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;71<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
-| EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;75<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;72<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
+| Dr. Claw | 本地优先的开源 AI 科研工作台，覆盖文献调研、实验执行、论文写作与研究产物管理 | agent/应用 | <!--stars:OpenLAIR/dr-claw-->⭐&nbsp;1.1k<!--/stars--> | [GitHub](https://github.com/OpenLAIR/dr-claw) | - | - |
+| EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;82<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | 面向长程自主科学发现的统一 agent 框架，支持假设生成、自动实验执行、论文复现、记忆模块和 Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐&nbsp;1.4k<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
-| Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;7<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
+| Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;15<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
 
 ---
 
@@ -81,75 +84,88 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| SciAgentsDiscovery | MIT 开源的科学发现多智能体系统，结合知识图谱与 agent 协作用于跨学科假说生成 | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;629<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
-| AutoDiscovery | AllenAI 开源的开放式科学发现框架，通过 Bayesian Surprise 从数据中发现可验证假说 | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;197<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2024](https://arxiv.org/abs/2406.13266) |
+| SciAgentsDiscovery | MIT 开源的科学发现多智能体系统，结合知识图谱与 agent 协作用于跨学科假说生成 | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;639<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
+| AutoDiscovery | AllenAI 开源的开放式科学发现框架，通过 Bayesian Surprise 从数据中发现可验证假说 | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;206<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2024](https://arxiv.org/abs/2406.13266) |
 
 ---
 
 ## 2 📚 文献研究：检索、精读、综述与引用网络
 
-文献搜索、RAG 问答、自动综述生成、引用图谱分析。纯写作润色类放 6。
+文献搜索、RAG 问答、自动综述生成、引用图谱分析。纯写作润色类放 7。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;30.4k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
-| paperseek | 面向研究者的文献发现工具，支持自然语言检索、自动迭代查询、扩展候选论文 | agent/skill | <!--stars:MingfengHong/paperseek-->⭐&nbsp;239<!--/stars--> | [GitHub](https://github.com/MingfengHong/paperseek) | [魔搭创空间](https://modelscope.cn/studios/HongMingfeng/PaperSeek) | - |
+| STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;31.3k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
+| paperseek | 面向研究者的文献发现工具，支持自然语言检索、自动迭代查询、扩展候选论文 | agent/skill | <!--stars:MingfengHong/paperseek-->⭐&nbsp;233<!--/stars--> | [GitHub](https://github.com/MingfengHong/paperseek) | [魔搭创空间](https://modelscope.cn/studios/HongMingfeng/PaperSeek) | - |
 | OpenAlex Search Skill | OpenAlex 是开放的全球学术图谱，覆盖论文、作者、机构、期刊和引用关系。该 Codex skill 将 OpenAlex works 检索封装为可复用命令行流程。| skill | <!--stars:XiaokunDuan/openalex_search-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/XiaokunDuan/openalex_search) | [Skill](https://github.com/XiaokunDuan/openalex_search/blob/main/openalex_search/SKILL.md) | - |
 | arXiv Browser Research Skill | 面向 Codex/browser-use 的 arXiv 浏览器兜底检索 skill，在 OpenAlex、Semantic Scholar 或 arXiv API 限流/结果不完整时，用受限域名浏览器流程抽取标题、作者、摘要、arXiv ID 和 PDF 链接。 | skill | <!--stars:pikaqiu2333/arxiv-browser-research-->⭐&nbsp;0<!--/stars--> | [GitHub](https://github.com/pikaqiu2333/arxiv-browser-research) | [Skill](https://github.com/pikaqiu2333/arxiv-browser-research/blob/main/SKILL.md) | - |
-| Lune | 通过 MCP 提供顶会 Paper 的 agentic search 能力，支持学术文献与科研最佳实践的 grounding | agent/tool | <!--stars:RetrogradeLabs/lune-mcp-server-->⭐&nbsp;3<!--/stars--> | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
-| PaperQA2 | 面向科学文献的高准确 RAG 问答系统，支持基于论文证据生成带引用回答 | python 包 | <!--stars:Future-House/paper-qa-->⭐&nbsp;9k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
+| Lune | 通过 MCP 提供顶会 Paper 的 agentic search 能力，支持学术文献与科研最佳实践的 grounding | agent/tool | <!--stars:RetrogradeLabs/lune-mcp-server-->⭐&nbsp;4<!--/stars--> | [GitHub](https://github.com/RetrogradeLabs/lune-mcp-server) | [Demo](https://luneresearch.com) | - |
+| PaperQA2 | 面向科学文献的高准确 RAG 问答系统，支持基于论文证据生成带引用回答 | python 包 | <!--stars:Future-House/paper-qa-->⭐&nbsp;9.2k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
 | OpenScholar | 检索增强的科学文献综合系统，用开放语料和检索结果生成引用支撑的 scholarly answer | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.6k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
-| paper-search-mcp | 面向 agent 的论文检索 MCP/CLI/Skill，支持 arXiv、PubMed、bioRxiv、Semantic Scholar、OpenAlex 等来源 | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;2.3k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
+| paper-search-mcp | 面向 agent 的论文检索 MCP/CLI/Skill，支持 arXiv、PubMed、bioRxiv、Semantic Scholar、OpenAlex 等来源 | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;2.6k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
 | Academic Paper Search | 面向 Codex 和 Claude Code 的论文检索 Skill/MCP，跨 Crossref、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 DOI/PMID 核验与引用导出 | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐ updating<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [开题检索实测](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
-| Zotero-GPT | Zotero 内的 AI 文献阅读插件，支持在文献库中进行摘要、问答、标签和笔记辅助 | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.3k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
+| Zotero-GPT | Zotero 内的 AI 文献阅读插件，支持在文献库中进行摘要、问答、标签和笔记辅助 | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.4k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
 
-## 3 🧩 方法设计
+## 3 🗃️ 数据获取与制备
 
-实验方案、评价指标设计、ablation 规划、protocol 检查。纯代码实现与跑实验放 4。
+从网页、文档和开放数据源取得原始材料，并以可复现的方式解析、清洗、结构化和记录来源。抓取前须确认网站条款、robots.txt、数据许可和隐私/伦理要求。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| Curie | 自动化且强调严谨性的科学实验 agent，从假说澄清到实验执行、分析和报告 | agent/workflow | <!--stars:Just-Curieous/Curie-->⭐&nbsp;367<!--/stars--> | [GitHub](https://github.com/Just-Curieous/Curie) | - | [arXiv 2025](https://arxiv.org/abs/2502.16069) |
+| Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;82.1k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
+| Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐&nbsp;66.2k<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
 
 ---
 
-## 4 ⚗️ 实验执行与分析
+## 4 🧩 方法设计
 
-代码编写、实验运行、统计分析、失败分析、鲁棒性检查。数据集构建放 3 或 2，可视化放 5。
+实验方案、评价指标设计、ablation 规划、protocol 检查。纯代码实现与跑实验放 5。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| RD-Agent | 实现数据与模型高价值通用研发流程的自动化，让 AI 驱动数据驱动型 AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;14.1k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
-| EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;75<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| Curie | 自动化且强调严谨性的科学实验 agent，从假说澄清到实验执行、分析和报告 | agent/workflow | <!--stars:Just-Curieous/Curie-->⭐&nbsp;370<!--/stars--> | [GitHub](https://github.com/Just-Curieous/Curie) | - | [arXiv 2025](https://arxiv.org/abs/2502.16069) |
 
 ---
 
-## 5 📊 科学可视化：论文插图、科学绘图与可视化表达
+## 5 ⚗️ 实验执行与分析
 
-出版级图表、示意图生成、数据 dashboard。幻灯/海报放 8。
+代码编写、实验运行、统计分析、失败分析、鲁棒性检查。数据集的抓取、解析和制备放 3，可视化放 6。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| PaperBanana | 多 agent 学术插图自动化生成框架，从文本描述生成出版级图表和统计图 | agent | <!--stars:dwzhu-pku/PaperBanana-->⭐&nbsp;6.9k<!--/stars--> | [GitHub](https://github.com/dwzhu-pku/PaperBanana) | [Demo](https://dwzhu-pku.github.io/PaperBanana/) | [arXiv 2025](https://modelscope.cn/papers/2601.23265/) |
-| codex-paper-figure-skill | 面向 Codex 的论文插图生成 Skill，将论文段落、方法描述和图示想法转化为可编辑的 draw.io 学术图 | skill | <!--stars:pengqianhan/codex-paper-figure-skill-->⭐&nbsp;5<!--/stars--> | [GitHub](https://github.com/pengqianhan/codex-paper-figure-skill) | - | - |
+| RD-Agent | 实现数据与模型高价值通用研发流程的自动化，让 AI 驱动数据驱动型 AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;14.6k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
+| EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;82<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| Jacobian | 面向多项式映射、线性代数和图算法的精确计算与猜想检验工具，提供 MCP 服务器、命令行工具和 Python 库 | tool | <!--stars:morluto/jacobian-->⭐&nbsp;191<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
 
 ---
 
-## 6 ✍️ 论文写作、投稿与同行评审
+## 6 📊 科学可视化：论文插图、科学绘图与可视化表达
+
+出版级图表、示意图生成、数据 dashboard。幻灯/海报放 9。
+
+| 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
+|---|---|---|---|---|---|---|
+| PaperBanana | 多 agent 学术插图自动化生成框架，从文本描述生成出版级图表和统计图 | agent | <!--stars:dwzhu-pku/PaperBanana-->⭐&nbsp;7.1k<!--/stars--> | [GitHub](https://github.com/dwzhu-pku/PaperBanana) | [Demo](https://dwzhu-pku.github.io/PaperBanana/) | [arXiv 2025](https://modelscope.cn/papers/2601.23265/) |
+| codex-paper-figure-skill | 面向 Codex 的论文插图生成 Skill，将论文段落、方法描述和图示想法转化为可编辑的 draw.io 学术图 | skill | <!--stars:pengqianhan/codex-paper-figure-skill-->⭐&nbsp;7<!--/stars--> | [GitHub](https://github.com/pengqianhan/codex-paper-figure-skill) | - | - |
+
+---
+
+## 7 ✍️ 论文写作、投稿与同行评审
 
 起草、润色、引用验证、LaTeX 辅助、rebuttal、审稿。综述生成类放 2。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;40.3k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
-| RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;448<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
-| Research Paper Lifecycle Skills | 面向 Agent 的论文全生命周期 Skill 套件，覆盖文献综述、引用核验、投稿检查、审稿回复、artifact、幻灯片和海报 | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐&nbsp;17<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
+| Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;47.4k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
+| RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;492<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
+| Research Paper Lifecycle Skills | 面向 Agent 的论文全生命周期 Skill 套件，覆盖文献综述、引用核验、投稿检查、审稿回复、artifact、幻灯片和海报 | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐&nbsp;42<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
+| ScholarCopilot | 开源学术写作助手，联合文本续写与上下文感知的论文检索，在生成过程中建议并插入相关引用 | tool | <!--stars:TIGER-AI-Lab/ScholarCopilot-->⭐&nbsp;252<!--/stars--> | [GitHub](https://github.com/TIGER-AI-Lab/ScholarCopilot) | [Demo](https://huggingface.co/spaces/TIGER-Lab/ScholarCopilot) | [COLM 2025](https://arxiv.org/abs/2504.00824) |
 
 ---
 
-## 7 📦 复现、发布与归档
+## 8 📦 复现、发布与归档
 
 代码复现、demo 体验、模型 & 数据集发布。
 
@@ -164,13 +180,13 @@
 
 ---
 
-## 8 📡 传播、教学与影响力分析
+## 9 📡 传播、教学与影响力分析
 
 幻灯、海报、博文、社交传播、引用分析、学术影响力工具。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo/实践经验 | Paper |
 |---|---|---|---|---|---|---|
-| CitationClaw | 用 agent 挖掘可解释的论文影响力，适合论文发表后的引用画像和传播分析 | tool | <!--stars:VisionXLab/CitationClaw-->⭐&nbsp;310<!--/stars--> | [GitHub](https://github.com/VisionXLab/CitationClaw) | [ModelScope Studio](https://modelscope.cn/studios/fork?target=VisionXLab/CitationClaw) | - |
+| CitationClaw | 用 agent 挖掘可解释的论文影响力，适合论文发表后的引用画像和传播分析 | tool | <!--stars:VisionXLab/CitationClaw-->⭐&nbsp;314<!--/stars--> | [GitHub](https://github.com/VisionXLab/CitationClaw) | [ModelScope Studio](https://modelscope.cn/studios/fork?target=VisionXLab/CitationClaw) | - |
 | ModelScope AI 超级简历 | 科研个人主页建设，用于沉淀模型、数据集、paper、demo 和学术影响力 | platform | - | [ModelScope](https://modelscope.cn/) | 示例：[VoyagerX](https://modelscope.cn/profile/VoyagerX) · [陈谐](https://modelscope.cn/profile/chenxie95) | - |
 
 ---
@@ -222,7 +238,7 @@
   ```
   例如：
   ```
-  | DeepScientist | 本地优先的自主研究工作室... | agent | <!--stars:ResearAI/DeepScientist-->⭐&nbsp;3.2k<!--/stars--> | [GitHub](...) | [Demo](...) | [arXiv 2025](...) |
+  | DeepScientist | 本地优先的自主研究工作室... | agent | <!--stars:ResearAI/DeepScientist-->⭐&nbsp;3.3k<!--/stars--> | [GitHub](...) | [Demo](...) | [arXiv 2025](...) |
   ```
 
 ---

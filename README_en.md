@@ -17,12 +17,13 @@
   <a href="#0--end-to-end-automated-research">🧪 End-to-End</a> •
   <a href="#1--topic-discovery--problem-definition">🔭 Topic Discovery</a> •
   <a href="#2--literature-research-retrieval-reading-review--citation-networks">📚 Literature</a> •
-  <a href="#3--method-design">🧩 Method Design</a> •
-  <a href="#4--experiment-execution--analysis">⚗️ Experiments</a> •
-  <a href="#5--scientific-visualization-figures-plots--visual-communication">📊 Visualization</a> •
-  <a href="#6--paper-writing-submission--peer-review">✍️ Writing</a> •
-  <a href="#7--reproduction-release--archiving">📦 Reproduction</a> •
-  <a href="#8--dissemination-teaching--impact-analysis">📡 Dissemination</a> •
+  <a href="#3--data-acquisition--preparation">🗃️ Data</a> •
+  <a href="#4--method-design">🧩 Method Design</a> •
+  <a href="#5--experiment-execution--analysis">⚗️ Experiments</a> •
+  <a href="#6--scientific-visualization-figures-plots--visual-communication">📊 Visualization</a> •
+  <a href="#7--paper-writing-submission--peer-review">✍️ Writing</a> •
+  <a href="#8--reproduction-release--archiving">📦 Reproduction</a> •
+  <a href="#9--dissemination-teaching--impact-analysis">📡 Dissemination</a> •
   <a href="#-how-to-contribute">🤝 Contribute</a>
 </p>
 
@@ -36,7 +37,7 @@ This repository grew out of the "Doing Research with Agents" seminar series. We 
 
 ## 🗺️ Research Lifecycle Map
 
-The table below shows our **9-stage** decomposition of the research lifecycle. Each stage lists "typical questions" and "types of AI-assisted components that can be distilled." The main body expands each stage into a curated project table.
+The table below shows our **10-stage** decomposition of the research lifecycle. Each stage lists "typical questions" and "types of AI-assisted components that can be distilled." The main body expands each stage into a curated project table.
 
 > 💡 **See something missing? Just add a row to the relevant table!**
 
@@ -45,12 +46,13 @@ The table below shows our **9-stage** decomposition of the research lifecycle. E
 | 🔄 0. End-to-End | Spans multiple stages below | — |
 | 🔭 1. Topic Discovery & Problem Definition | What's happening in this field? What problems are worth pursuing? | trend scanner, paper radar, venue tracker; idea generator, novelty checker, hypothesis workflow |
 | 📚 2. Literature Research | How to find, read, compare, and synthesize related work? | literature review workflow, paper reading skill, citation graph agent |
-| 🧩 3. Method Design | How to design the approach, experiments, and evaluation metrics? | experiment design skill, ablation planner, protocol checker |
-| ⚗️ 4. Experiment Execution & Analysis | How to code, run experiments, and log failures? Are results reliable? | experiment runner, statistical analysis skill, failure analysis workflow, robustness checker |
-| 📊 5. Visualization | Do the figures clearly communicate the scientific question? | figure generation agent, visualization critique skill |
-| ✍️ 6. Paper Writing | How to structure the paper, manage citations, supplement experiments? | paper writing workflow, citation verifier, rebuttal assistant |
-| 📦 7. Reproduction & Release | How to enable others to reproduce and use your work? | artifact packaging workflow, model card, data card, reproducibility checklist |
-| 📡 8. Dissemination & Impact | How to track impact after publication? How to build academic influence? | impact analysis tool, social summary skill, citation monitor |
+| 🗃️ 3. Data Acquisition & Preparation | Where are the raw data, and how can they be collected, parsed, cleaned, and provenance-tracked legally and reproducibly? | web/data crawler, document parser, data extraction agent, provenance workflow |
+| 🧩 4. Method Design | How to design the approach, experiments, and evaluation metrics? | experiment design skill, ablation planner, protocol checker |
+| ⚗️ 5. Experiment Execution & Analysis | How to code, run experiments, and log failures? Are results reliable? | experiment runner, statistical analysis skill, failure analysis workflow, robustness checker |
+| 📊 6. Visualization | Do the figures clearly communicate the scientific question? | figure generation agent, visualization critique skill |
+| ✍️ 7. Paper Writing | How to structure the paper, manage citations, supplement experiments? | paper writing workflow, citation verifier, rebuttal assistant |
+| 📦 8. Reproduction & Release | How to enable others to reproduce and use your work? | artifact packaging workflow, model card, data card, reproducibility checklist |
+| 📡 9. Dissemination & Impact | How to track impact after publication? How to build academic influence? | impact analysis tool, social summary skill, citation monitor |
 
 ---
 
@@ -69,6 +71,7 @@ End-to-end systems from idea to paper. Agents spanning three or more stages go h
 | Auto Claude Code Research in Sleep | Automated Claude Code research workflow for unattended experiment execution | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;12.3k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | End-to-end autonomous research workflow with LLM-powered specialized agents for literature review through report writing | agent | <!--stars:SamuelSchmidgall/AgentLaboratory-->⭐&nbsp;5.7k<!--/stars--> | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | Open-source AI research environment with unified web & desktop experience, powered by research-focused agents and skills | agent/app | <!--stars:Science-Discovery/Aether-->⭐&nbsp;65<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
+| Dr. Claw | Local-first open-source AI research workbench covering literature research, experiment execution, paper writing, and research artifact management | agent/app | <!--stars:OpenLAIR/dr-claw-->⭐&nbsp;1k<!--/stars--> | [GitHub](https://github.com/OpenLAIR/dr-claw) | - | - |
 | EurekAgent | Environment-engineered autonomous research system for metric-driven tasks, coordinating Claude Code sessions to propose, implement, evaluate, and iterate solutions | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;55<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | Unified agentic framework for long-horizon autonomous scientific discovery, covering hypothesis generation, automated experimentation, paper reproduction, memory, and Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐ updating<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
 | Tashan Research Skills | 16 research skills built by the Tashan team at UCAS, organized into literature evidence, ideation, expression, collaboration memory, and tool evaluation; each skill ships with its own scripts, templates, and tests | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐ updating<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
@@ -88,7 +91,7 @@ Trend tracking, research inspiration, novelty verification, hypothesis generatio
 
 ## 2 📚 Literature Research: Retrieval, Reading, Review & Citation Networks
 
-Literature search, RAG Q&A, automated survey generation, citation graph analysis. Pure writing/polishing tools go in Stage 6.
+Literature search, RAG Q&A, automated survey generation, citation graph analysis. Pure writing/polishing tools go in Stage 7.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -100,13 +103,25 @@ Literature search, RAG Q&A, automated survey generation, citation graph analysis
 | PaperQA2 | High-accuracy RAG system for scientific papers, producing evidence-grounded answers with citations | python pkg | <!--stars:Future-House/paper-qa-->⭐&nbsp;8.7k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
 | OpenScholar | Retrieval-augmented scientific literature synthesis system for generating scholarly answers grounded in open corpora | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.5k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
 | paper-search-mcp | MCP/CLI/Skill for agent-facing paper search across arXiv, PubMed, bioRxiv, Semantic Scholar, OpenAlex, and more | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;1.9k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
+| Academic Paper Search | Paper search Skill/MCP for Codex and Claude Code, with cross-source search and deduplication across Crossref, PubMed, arXiv, OpenAlex, and Europe PMC, DOI/PMID verification, and citation export | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐ updating<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [Topic-scoping walkthrough (Chinese)](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
 | Zotero-GPT | AI literature-reading plugin inside Zotero, supporting summarization, Q&A, tagging, and note assistance | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.2k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
 
-## 3 🧩 Method Design
+## 3 🗃️ Data Acquisition & Preparation
 
-Experiment planning, evaluation metric design, ablation planning, protocol checking. Pure coding and experiment running go in Stage 4.
+Collect raw materials from the web, documents, and open data sources, then parse, clean, structure, and provenance-track them reproducibly. Confirm site terms, robots.txt, data licenses, and privacy/ethics requirements before crawling.
+
+| Project | Description | Type | Stars | Link | Demo | Paper |
+|---|---|---|---|---|---|---|
+| Crawl4AI | Open-source asynchronous web crawler and structured-extraction framework for LLMs/agents, with deep crawling, caching, and controllable sessions; suitable for turning public web materials into traceable research corpora | tool | <!--stars:unclecode/crawl4ai-->⭐ updating<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
+| Docling | Local parser for PDFs, HTML, tables, and common research documents, exporting Markdown or JSON while preserving layout, tables, and formulas; suitable for batch preparation of raw materials for downstream analysis | python pkg | <!--stars:docling-project/docling-->⭐ updating<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+
+---
+
+## 4 🧩 Method Design
+
+Experiment planning, evaluation metric design, ablation planning, protocol checking. Pure coding and experiment running go in Stage 5.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -114,20 +129,21 @@ Experiment planning, evaluation metric design, ablation planning, protocol check
 
 ---
 
-## 4 ⚗️ Experiment Execution & Analysis
+## 5 ⚗️ Experiment Execution & Analysis
 
-Coding, experiment running, statistical analysis, failure analysis, robustness checking. Dataset construction goes in Stage 2/3; visualization in Stage 5.
+Coding, experiment running, statistical analysis, failure analysis, robustness checking. Dataset collection, parsing, and preparation go in Stage 3; visualization in Stage 6.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
 | RD-Agent | Automates high-value R&D processes for data and models — letting AI drive data-driven AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;13.5k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
 | EurekAgent | Execution environment for metric-driven research tasks, supporting Claude Code sessions for implementation, Docker-isolated evaluation, logging, and iterative optimization | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;55<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
+| Jacobian | MCP server, CLI, and Python library for exact computation and conjecture testing across polynomial maps, linear algebra, and graph algorithms | tool | <!--stars:morluto/jacobian-->⭐ updating<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
 
 ---
 
-## 5 📊 Scientific Visualization: Figures, Plots & Visual Communication
+## 6 📊 Scientific Visualization: Figures, Plots & Visual Communication
 
-Publication-quality figures, schematic generation, data dashboards. Slides/posters go in Stage 8.
+Publication-quality figures, schematic generation, data dashboards. Slides/posters go in Stage 9.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -136,7 +152,7 @@ Publication-quality figures, schematic generation, data dashboards. Slides/poste
 
 ---
 
-## 6 ✍️ Paper Writing, Submission & Peer Review
+## 7 ✍️ Paper Writing, Submission & Peer Review
 
 Drafting, polishing, citation verification, LaTeX assistance, rebuttal, reviewing. Survey generation goes in Stage 2.
 
@@ -145,10 +161,11 @@ Drafting, polishing, citation verification, LaTeX assistance, rebuttal, reviewin
 | Academic Research Skills | Claude Code skill suite covering academic writing, polishing, submission checks, and publication workflow | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;32.5k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
 | RefChecker | Academic reference validation tool for checking citation existence, metadata errors, and likely fabricated references | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;402<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 | Research Paper Lifecycle Skills | Agent Skills package for literature review, citation verification, submission checks, rebuttals, artifacts, slides, and posters | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐ updating<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
+| ScholarCopilot | Open-source academic writing assistant that jointly performs text completion and context-aware paper retrieval to suggest and insert relevant citations while drafting | tool | <!--stars:TIGER-AI-Lab/ScholarCopilot-->⭐&nbsp;251<!--/stars--> | [GitHub](https://github.com/TIGER-AI-Lab/ScholarCopilot) | [Demo](https://huggingface.co/spaces/TIGER-Lab/ScholarCopilot) | [COLM 2025](https://arxiv.org/abs/2504.00824) |
 
 ---
 
-## 7 📦 Reproduction, Release & Archiving
+## 8 📦 Reproduction, Release & Archiving
 
 Code reproduction, demo experience, model & dataset publishing.
 
@@ -163,7 +180,7 @@ Code reproduction, demo experience, model & dataset publishing.
 
 ---
 
-## 8 📡 Dissemination, Teaching & Impact Analysis
+## 9 📡 Dissemination, Teaching & Impact Analysis
 
 Slides, posters, blog posts, social media outreach, citation analysis, academic influence tools.
 
