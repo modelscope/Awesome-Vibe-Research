@@ -17,12 +17,13 @@
   <a href="#0--end-to-end-automated-research">🧪 End-to-End</a> •
   <a href="#1--topic-discovery--problem-definition">🔭 Topic Discovery</a> •
   <a href="#2--literature-research-retrieval-reading-review--citation-networks">📚 Literature</a> •
-  <a href="#3--method-design">🧩 Method Design</a> •
-  <a href="#4--experiment-execution--analysis">⚗️ Experiments</a> •
-  <a href="#5--scientific-visualization-figures-plots--visual-communication">📊 Visualization</a> •
-  <a href="#6--paper-writing-submission--peer-review">✍️ Writing</a> •
-  <a href="#7--reproduction-release--archiving">📦 Reproduction</a> •
-  <a href="#8--dissemination-teaching--impact-analysis">📡 Dissemination</a> •
+  <a href="#3--data-acquisition--preparation">🗃️ Data</a> •
+  <a href="#4--method-design">🧩 Method Design</a> •
+  <a href="#5--experiment-execution--analysis">⚗️ Experiments</a> •
+  <a href="#6--scientific-visualization-figures-plots--visual-communication">📊 Visualization</a> •
+  <a href="#7--paper-writing-submission--peer-review">✍️ Writing</a> •
+  <a href="#8--reproduction-release--archiving">📦 Reproduction</a> •
+  <a href="#9--dissemination-teaching--impact-analysis">📡 Dissemination</a> •
   <a href="#-how-to-contribute">🤝 Contribute</a>
 </p>
 
@@ -36,7 +37,7 @@ This repository grew out of the "Doing Research with Agents" seminar series. We 
 
 ## 🗺️ Research Lifecycle Map
 
-The table below shows our **9-stage** decomposition of the research lifecycle. Each stage lists "typical questions" and "types of AI-assisted components that can be distilled." The main body expands each stage into a curated project table.
+The table below shows our **10-stage** decomposition of the research lifecycle. Each stage lists "typical questions" and "types of AI-assisted components that can be distilled." The main body expands each stage into a curated project table.
 
 > 💡 **See something missing? Just add a row to the relevant table!**
 
@@ -45,12 +46,13 @@ The table below shows our **9-stage** decomposition of the research lifecycle. E
 | 🔄 0. End-to-End | Spans multiple stages below | — |
 | 🔭 1. Topic Discovery & Problem Definition | What's happening in this field? What problems are worth pursuing? | trend scanner, paper radar, venue tracker; idea generator, novelty checker, hypothesis workflow |
 | 📚 2. Literature Research | How to find, read, compare, and synthesize related work? | literature review workflow, paper reading skill, citation graph agent |
-| 🧩 3. Method Design | How to design the approach, experiments, and evaluation metrics? | experiment design skill, ablation planner, protocol checker |
-| ⚗️ 4. Experiment Execution & Analysis | How to code, run experiments, and log failures? Are results reliable? | experiment runner, statistical analysis skill, failure analysis workflow, robustness checker |
-| 📊 5. Visualization | Do the figures clearly communicate the scientific question? | figure generation agent, visualization critique skill |
-| ✍️ 6. Paper Writing | How to structure the paper, manage citations, supplement experiments? | paper writing workflow, citation verifier, rebuttal assistant |
-| 📦 7. Reproduction & Release | How to enable others to reproduce and use your work? | artifact packaging workflow, model card, data card, reproducibility checklist |
-| 📡 8. Dissemination & Impact | How to track impact after publication? How to build academic influence? | impact analysis tool, social summary skill, citation monitor |
+| 🗃️ 3. Data Acquisition & Preparation | Where are the raw data, and how can they be collected, parsed, cleaned, and provenance-tracked legally and reproducibly? | web/data crawler, document parser, data extraction agent, provenance workflow |
+| 🧩 4. Method Design | How to design the approach, experiments, and evaluation metrics? | experiment design skill, ablation planner, protocol checker |
+| ⚗️ 5. Experiment Execution & Analysis | How to code, run experiments, and log failures? Are results reliable? | experiment runner, statistical analysis skill, failure analysis workflow, robustness checker |
+| 📊 6. Visualization | Do the figures clearly communicate the scientific question? | figure generation agent, visualization critique skill |
+| ✍️ 7. Paper Writing | How to structure the paper, manage citations, supplement experiments? | paper writing workflow, citation verifier, rebuttal assistant |
+| 📦 8. Reproduction & Release | How to enable others to reproduce and use your work? | artifact packaging workflow, model card, data card, reproducibility checklist |
+| 📡 9. Dissemination & Impact | How to track impact after publication? How to build academic influence? | impact analysis tool, social summary skill, citation monitor |
 
 ---
 
@@ -88,7 +90,7 @@ Trend tracking, research inspiration, novelty verification, hypothesis generatio
 
 ## 2 📚 Literature Research: Retrieval, Reading, Review & Citation Networks
 
-Literature search, RAG Q&A, automated survey generation, citation graph analysis. Pure writing/polishing tools go in Stage 6.
+Literature search, RAG Q&A, automated survey generation, citation graph analysis. Pure writing/polishing tools go in Stage 7.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -104,9 +106,20 @@ Literature search, RAG Q&A, automated survey generation, citation graph analysis
 
 ---
 
-## 3 🧩 Method Design
+## 3 🗃️ Data Acquisition & Preparation
 
-Experiment planning, evaluation metric design, ablation planning, protocol checking. Pure coding and experiment running go in Stage 4.
+Collect raw materials from the web, documents, and open data sources, then parse, clean, structure, and provenance-track them reproducibly. Confirm site terms, robots.txt, data licenses, and privacy/ethics requirements before crawling.
+
+| Project | Description | Type | Stars | Link | Demo | Paper |
+|---|---|---|---|---|---|---|
+| Crawl4AI | Open-source asynchronous web crawler and structured-extraction framework for LLMs/agents, with deep crawling, caching, and controllable sessions; suitable for turning public web materials into traceable research corpora | tool | <!--stars:unclecode/crawl4ai-->⭐ updating<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
+| Docling | Local parser for PDFs, HTML, tables, and common research documents, exporting Markdown or JSON while preserving layout, tables, and formulas; suitable for batch preparation of raw materials for downstream analysis | python pkg | <!--stars:docling-project/docling-->⭐ updating<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+
+---
+
+## 4 🧩 Method Design
+
+Experiment planning, evaluation metric design, ablation planning, protocol checking. Pure coding and experiment running go in Stage 5.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -114,9 +127,9 @@ Experiment planning, evaluation metric design, ablation planning, protocol check
 
 ---
 
-## 4 ⚗️ Experiment Execution & Analysis
+## 5 ⚗️ Experiment Execution & Analysis
 
-Coding, experiment running, statistical analysis, failure analysis, robustness checking. Dataset construction goes in Stage 2/3; visualization in Stage 5.
+Coding, experiment running, statistical analysis, failure analysis, robustness checking. Dataset collection, parsing, and preparation go in Stage 3; visualization in Stage 6.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -125,9 +138,9 @@ Coding, experiment running, statistical analysis, failure analysis, robustness c
 
 ---
 
-## 5 📊 Scientific Visualization: Figures, Plots & Visual Communication
+## 6 📊 Scientific Visualization: Figures, Plots & Visual Communication
 
-Publication-quality figures, schematic generation, data dashboards. Slides/posters go in Stage 8.
+Publication-quality figures, schematic generation, data dashboards. Slides/posters go in Stage 9.
 
 | Project | Description | Type | Stars | Link | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -136,7 +149,7 @@ Publication-quality figures, schematic generation, data dashboards. Slides/poste
 
 ---
 
-## 6 ✍️ Paper Writing, Submission & Peer Review
+## 7 ✍️ Paper Writing, Submission & Peer Review
 
 Drafting, polishing, citation verification, LaTeX assistance, rebuttal, reviewing. Survey generation goes in Stage 2.
 
@@ -148,7 +161,7 @@ Drafting, polishing, citation verification, LaTeX assistance, rebuttal, reviewin
 
 ---
 
-## 7 📦 Reproduction, Release & Archiving
+## 8 📦 Reproduction, Release & Archiving
 
 Code reproduction, demo experience, model & dataset publishing.
 
@@ -163,7 +176,7 @@ Code reproduction, demo experience, model & dataset publishing.
 
 ---
 
-## 8 📡 Dissemination, Teaching & Impact Analysis
+## 9 📡 Dissemination, Teaching & Impact Analysis
 
 Slides, posters, blog posts, social media outreach, citation analysis, academic influence tools.
 

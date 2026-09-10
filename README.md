@@ -17,12 +17,13 @@
   <a href="#0--全流程端到端自动科研">🧪 全流程</a> •
   <a href="#1--方向扫描与问题定义">🔭 方向扫描</a> •
   <a href="#2--文献研究检索精读综述与引用网络">📚 文献研究</a> •
-  <a href="#3--方法设计">🧩 方法设计</a> •
-  <a href="#4--实验执行与分析">⚗️ 实验执行</a> •
-  <a href="#5--科学可视化论文插图科学绘图与可视化表达">📊 可视化</a> •
-  <a href="#6--论文写作投稿与同行评审">✍️ 写作</a> •
-  <a href="#7--复现发布与归档">📦 复现发布</a> •
-  <a href="#8--传播教学与影响力分析">📡 传播</a> •
+  <a href="#3--数据获取与制备">🗃️ 数据</a> •
+  <a href="#4--方法设计">🧩 方法设计</a> •
+  <a href="#5--实验执行与分析">⚗️ 实验执行</a> •
+  <a href="#6--科学可视化论文插图科学绘图与可视化表达">📊 可视化</a> •
+  <a href="#7--论文写作投稿与同行评审">✍️ 写作</a> •
+  <a href="#8--复现发布与归档">📦 复现发布</a> •
+  <a href="#9--传播教学与影响力分析">📡 传播</a> •
   <a href="#-如何贡献">🤝 贡献</a>
 </p>
 
@@ -36,7 +37,7 @@
 
 ## 🗺️ 科研流程地图
 
-下表是我们对科研生命周期的 **9 阶段**拆分。每个阶段列出了"典型问题"和"可沉淀的 AI 辅助组件类型"。正文按阶段展开条目表，收录已知最好的项目、skill、workflow。
+下表是我们对科研生命周期的 **10 阶段**拆分。每个阶段列出了"典型问题"和"可沉淀的 AI 辅助组件类型"。正文按阶段展开条目表，收录已知最好的项目、skill、workflow。
 
 > 💡 **如果你觉得某个阶段的条目缺失或可以补充——直接在对应表格中添加一行。**
 
@@ -45,12 +46,13 @@
 | 🔄 0.全流程 | 覆盖以下多个环节和问题 | — |
 | 🔭 1. 方向扫描和问题定义 | 这个领域最近发生了什么？什么问题值得做、可做、能验证？ | trend scanner、paper radar、venue tracker；idea generator、novelty checker、hypothesis workflow |
 | 📚 2. 文献研究 | 相关工作怎么找、读、比、写？ | literature review workflow、paper reading skill、citation graph agent |
-| 🧩 3. 方法设计 | 方案、实验和评价指标如何设计？ | experiment design skill、ablation planner、protocol checker |
-| ⚗️ 4. 实验执行与分析 | 如何写代码、跑实验、记录失败？结果是否可信，误差来自哪里？ | experiment runner、statistical analysis skill、failure analysis workflow、robustness checker |
-| 📊 5. 可视化 | 图表是否讲清楚了科学问题？ | figure generation agent、visualization critique skill |
-| ✍️ 6. 论文写作 | 如何组织论文、引用、补实验？ | paper writing workflow、citation verifier、rebuttal assistant |
-| 📦 7. 复现发布 | 如何让别人复现和使用？ | artifact packaging workflow、model card、data card、reproducibility checklist |
-| 📡 8. 传播影响 | 论文发表后如何追踪影响？如何构造自己的学术影响力 | impact analysis tool、social summary skill、citation monitor |
+| 🗃️ 3. 数据获取与制备 | 原始数据在哪里？如何合规、可复现地抓取、解析、清洗并保留来源？ | web/data crawler、document parser、data extraction agent、provenance workflow |
+| 🧩 4. 方法设计 | 方案、实验和评价指标如何设计？ | experiment design skill、ablation planner、protocol checker |
+| ⚗️ 5. 实验执行与分析 | 如何写代码、跑实验、记录失败？结果是否可信，误差来自哪里？ | experiment runner、statistical analysis skill、failure analysis workflow、robustness checker |
+| 📊 6. 可视化 | 图表是否讲清楚了科学问题？ | figure generation agent、visualization critique skill |
+| ✍️ 7. 论文写作 | 如何组织论文、引用、补实验？ | paper writing workflow、citation verifier、rebuttal assistant |
+| 📦 8. 复现发布 | 如何让别人复现和使用？ | artifact packaging workflow、model card、data card、reproducibility checklist |
+| 📡 9. 传播影响 | 论文发表后如何追踪影响？如何构造自己的学术影响力 | impact analysis tool、social summary skill、citation monitor |
 
 ---
 
@@ -88,7 +90,7 @@
 
 ## 2 📚 文献研究：检索、精读、综述与引用网络
 
-文献搜索、RAG 问答、自动综述生成、引用图谱分析。纯写作润色类放 6。
+文献搜索、RAG 问答、自动综述生成、引用图谱分析。纯写作润色类放 7。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -104,9 +106,20 @@
 
 ---
 
-## 3 🧩 方法设计
+## 3 🗃️ 数据获取与制备
 
-实验方案、评价指标设计、ablation 规划、protocol 检查。纯代码实现与跑实验放 4。
+从网页、文档和开放数据源取得原始材料，并以可复现的方式解析、清洗、结构化和记录来源。抓取前须确认网站条款、robots.txt、数据许可和隐私/伦理要求。
+
+| 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
+|---|---|---|---|---|---|---|
+| Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐ updating<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
+| Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐ updating<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+
+---
+
+## 4 🧩 方法设计
+
+实验方案、评价指标设计、ablation 规划、protocol 检查。纯代码实现与跑实验放 5。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -114,9 +127,9 @@
 
 ---
 
-## 4 ⚗️ 实验执行与分析
+## 5 ⚗️ 实验执行与分析
 
-代码编写、实验运行、统计分析、失败分析、鲁棒性检查。数据集构建放 3 或 2，可视化放 5。
+代码编写、实验运行、统计分析、失败分析、鲁棒性检查。数据集的抓取、解析和制备放 3，可视化放 6。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -125,9 +138,9 @@
 
 ---
 
-## 5 📊 科学可视化：论文插图、科学绘图与可视化表达
+## 6 📊 科学可视化：论文插图、科学绘图与可视化表达
 
-出版级图表、示意图生成、数据 dashboard。幻灯/海报放 8。
+出版级图表、示意图生成、数据 dashboard。幻灯/海报放 9。
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
@@ -136,7 +149,7 @@
 
 ---
 
-## 6 ✍️ 论文写作、投稿与同行评审
+## 7 ✍️ 论文写作、投稿与同行评审
 
 起草、润色、引用验证、LaTeX 辅助、rebuttal、审稿。综述生成类放 2。
 
@@ -148,7 +161,7 @@
 
 ---
 
-## 7 📦 复现、发布与归档
+## 8 📦 复现、发布与归档
 
 代码复现、demo 体验、模型 & 数据集发布。
 
@@ -163,7 +176,7 @@
 
 ---
 
-## 8 📡 传播、教学与影响力分析
+## 9 📡 传播、教学与影响力分析
 
 幻灯、海报、博文、社交传播、引用分析、学术影响力工具。
 
