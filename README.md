@@ -71,7 +71,7 @@
 | Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;16k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
 | AgentLaboratory | 端到端的自主研究工作流程，由 LLM 驱动的专业代理支持完成从文献综述到报告撰写的全流程 | agent | <!--stars:SamuelSchmidgall/AgentLaboratory-->⭐&nbsp;5.8k<!--/stars--> | [GitHub](https://github.com/SamuelSchmidgall/AgentLaboratory) | - | - |
 | Aether | 基于 OpenCode 的开源项目，面向科研人员提供 web 与桌面端统一的 AI 研究工作环境 | agent/应用 | <!--stars:Science-Discovery/Aether-->⭐&nbsp;72<!--/stars--> | [GitHub](https://github.com/Science-Discovery/Aether) | - | - |
-| Dr. Claw | 本地优先的开源 AI 科研工作台，覆盖文献调研、实验执行、论文写作与研究产物管理 | agent/应用 | <!--stars:OpenLAIR/dr-claw-->⭐&nbsp;1k<!--/stars--> | [GitHub](https://github.com/OpenLAIR/dr-claw) | - | - |
+| Dr. Claw | 本地优先的开源 AI 科研工作台，覆盖文献调研、实验执行、论文写作与研究产物管理 | agent/应用 | <!--stars:OpenLAIR/dr-claw-->⭐&nbsp;1.1k<!--/stars--> | [GitHub](https://github.com/OpenLAIR/dr-claw) | - | - |
 | EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;82<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | 面向长程自主科学发现的统一 agent 框架，支持假设生成、自动实验执行、论文复现、记忆模块和 Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐&nbsp;1.4k<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
 | Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;15<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
@@ -136,7 +136,7 @@
 |---|---|---|---|---|---|---|
 | RD-Agent | 实现数据与模型高价值通用研发流程的自动化，让 AI 驱动数据驱动型 AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;14.6k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
 | EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;82<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
-| Jacobian | 面向多项式映射、线性代数和图算法的精确计算与猜想检验工具，提供 MCP 服务器、命令行工具和 Python 库 | tool | <!--stars:morluto/jacobian-->⭐ updating<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
+| Jacobian | 面向多项式映射、线性代数和图算法的精确计算与猜想检验工具，提供 MCP 服务器、命令行工具和 Python 库 | tool | <!--stars:morluto/jacobian-->⭐&nbsp;191<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
 
 ---
 
