@@ -65,7 +65,7 @@
 | AI-Scientist | 端到端自动科学发现系统，覆盖想法生成、实验、论文和同行评审 | agent | <!--stars:SakanaAI/AI-Scientist-->⭐&nbsp;14.5k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist) | - | [Nature 2024](https://modelscope.cn/papers/2408.06292/) |
 | AI-Scientist-v2 | 基于 agentic tree search 的自动科研系统，不依赖人类模板，面向更通用的 ML 研究探索 | agent | <!--stars:SakanaAI/AI-Scientist-v2-->⭐&nbsp;7.1k<!--/stars--> | [GitHub](https://github.com/SakanaAI/AI-Scientist-v2) | - | [arXiv 2025](https://modelscope.cn/papers/2504.08066/) |
 | EvoScientist | 多 agent AI scientist 系统，强调持久记忆、技能演化和端到端科研协作 | agent | <!--stars:EvoScientist/EvoScientist-->⭐&nbsp;4.8k<!--/stars--> | [GitHub](https://github.com/EvoScientist/EvoScientist) | [Demo](https://evoscientist.ai) | [arXiv 2025](https://modelscope.cn/papers/2603.08127/) |
-| nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;40.8k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
+| nature-skills | 符合 nature 论文学术表达和科研绘图的 Skill | skill | <!--stars:Yuan1z0825/nature-skills-->⭐&nbsp;41k<!--/stars--> | [GitHub](https://github.com/Yuan1z0825/nature-skills) · [魔搭 Skills](https://modelscope.cn/collections/stn54999/nature-skills) | - | - |
 | AutoResearchClaw | 自主、自进化的多阶段研究流水线，从研究想法推进到论文产物 | agent | <!--stars:aiming-lab/AutoResearchClaw-->⭐&nbsp;14.4k<!--/stars--> | [GitHub](https://github.com/aiming-lab/AutoResearchClaw) | [Demo](https://openclaw.ai) | [arXiv 2025](https://modelscope.cn/papers/2605.22662/) |
 | autoresearch | Andrej Karpathy 的自主 ML 研究代理，在单 GPU 上自动运行实验并改进模型 | agent | <!--stars:karpathy/autoresearch-->⭐&nbsp;95.6k<!--/stars--> | [GitHub](https://github.com/karpathy/autoresearch) | - | - |
 | Auto Claude Code Research in Sleep | 自动化 Claude Code 科研工作流项目，面向自动实验与代码执行 | skill | <!--stars:wanshuiyin/Auto-claude-code-research-in-sleep-->⭐&nbsp;16k<!--/stars--> | [GitHub](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | - | - |
@@ -85,7 +85,7 @@
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
 | SciAgentsDiscovery | MIT 开源的科学发现多智能体系统，结合知识图谱与 agent 协作用于跨学科假说生成 | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;639<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
-| AutoDiscovery | AllenAI 开源的开放式科学发现框架，通过 Bayesian Surprise 从数据中发现可验证假说 | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;206<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2024](https://arxiv.org/abs/2406.13266) |
+| AutoDiscovery | AllenAI 开源的开放式科学发现框架，通过 Bayesian Surprise 从数据中发现可验证假说 | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;207<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2024](https://arxiv.org/abs/2406.13266) |
 
 ---
 
@@ -103,7 +103,7 @@
 | PaperQA2 | 面向科学文献的高准确 RAG 问答系统，支持基于论文证据生成带引用回答 | python 包 | <!--stars:Future-House/paper-qa-->⭐&nbsp;9.2k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
 | OpenScholar | 检索增强的科学文献综合系统，用开放语料和检索结果生成引用支撑的 scholarly answer | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.6k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
 | paper-search-mcp | 面向 agent 的论文检索 MCP/CLI/Skill，支持 arXiv、PubMed、bioRxiv、Semantic Scholar、OpenAlex 等来源 | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;2.6k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
-| Academic Paper Search | 面向 Codex 和 Claude Code 的论文检索 Skill/MCP，跨 Crossref、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 DOI/PMID 核验与引用导出 | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐&nbsp;224<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [开题检索实测](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
+| Academic Paper Search | 面向 Codex 和 Claude Code 的论文检索 Skill/MCP，跨 Crossref、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 DOI/PMID 核验与引用导出 | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐&nbsp;228<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [开题检索实测](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
 | Zotero-GPT | Zotero 内的 AI 文献阅读插件，支持在文献库中进行摘要、问答、标签和笔记辅助 | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.4k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
@@ -114,7 +114,7 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;82.1k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
+| Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;82.2k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
 | Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐&nbsp;66.3k<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
 
 ---
@@ -158,7 +158,7 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;47.6k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
+| Academic Research Skills | 覆盖学术写作、润色、投稿检查和发表流程的 Claude Code skill 套件，也覆盖文献调研 | skill | <!--stars:Imbad0202/academic-research-skills-->⭐&nbsp;47.7k<!--/stars--> | [GitHub](https://github.com/Imbad0202/academic-research-skills) | - | - |
 | RefChecker | 学术参考文献验证工具，可检查引用真实性、元数据错误和疑似伪造引用 | tool | <!--stars:markrussinovich/refchecker-->⭐&nbsp;494<!--/stars--> | [GitHub](https://github.com/markrussinovich/refchecker) | - | - |
 | Research Paper Lifecycle Skills | 面向 Agent 的论文全生命周期 Skill 套件，覆盖文献综述、引用核验、投稿检查、审稿回复、artifact、幻灯片和海报 | skill | <!--stars:ShaishavMaisuria/research-paper-lifecycle-skills-->⭐&nbsp;42<!--/stars--> | [GitHub](https://github.com/ShaishavMaisuria/research-paper-lifecycle-skills) | [Website](https://shaishavmaisuria.github.io/research-paper-lifecycle-skills/) | - |
 | ScholarCopilot | 开源学术写作助手，联合文本续写与上下文感知的论文检索，在生成过程中建议并插入相关引用 | tool | <!--stars:TIGER-AI-Lab/ScholarCopilot-->⭐&nbsp;252<!--/stars--> | [GitHub](https://github.com/TIGER-AI-Lab/ScholarCopilot) | [Demo](https://huggingface.co/spaces/TIGER-Lab/ScholarCopilot) | [COLM 2025](https://arxiv.org/abs/2504.00824) |
