@@ -138,6 +138,7 @@
 | RD-Agent | 实现数据与模型高价值通用研发流程的自动化，让 AI 驱动数据驱动型 AI | agent | <!--stars:microsoft/RD-Agent-->⭐&nbsp;14.6k<!--/stars--> | [GitHub](https://github.com/microsoft/RD-Agent) | - | [arXiv 2025](https://arxiv.org/abs/2505.14738) |
 | EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;83<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | Jacobian | 面向多项式映射、线性代数和图算法的精确计算与猜想检验工具，提供 MCP 服务器、命令行工具和 Python 库 | tool | <!--stars:morluto/jacobian-->⭐&nbsp;191<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
+| STEER | 面向 Cursor/Claude Code 的 AI4R 实验框架：接入已有训练项目，agent 在固定任务与评分契约下改代码并训练，台账与审查门控保留证据 | agent | <!--stars:xieyulai/steer-->⭐ updating<!--/stars--> | [GitHub](https://github.com/xieyulai/steer) | - | - |
 
 ---
 
