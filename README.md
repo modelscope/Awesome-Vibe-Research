@@ -177,6 +177,7 @@
 | Paper2Code | 多智能体系统，将学术论文自动转化为可运行的代码仓库 | agent | [GitHub](https://github.com/going-doer/Paper2Code) | [Quick Start](https://github.com/going-doer/Paper2Code#-quick-start) |
 | data-to-paper | 多 AI 智能体自主协作，从原始数据完成完整科研并生成可验证论文 | python 包 | [GitHub](https://github.com/Technion-Kishony-lab/data-to-paper) | - |
 | Manage AI Research Projects | 面向 Claude Code/Codex 的科研项目管理 Skill，用于创建可复现项目结构、审计 metadata 与结果追踪，并记录 AI workflow 资产 | skill | [GitHub](https://github.com/Devin-jun/Manage-AI-Research) | [README](https://github.com/Devin-jun/Manage-AI-Research/blob/main/README.zh-CN.md) |
+| OrcaReplay | 在进程外录下 AI agent 的整次运行（逐字节的模型请求与响应、每次工具调用、shell 退出码、文件改动），并可离线重放：模型回复由录像供给，不联网、不花 token，别人无需 API key 也能复现这次实验 | tool | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | [集成说明](https://github.com/Continuum-AI-Corp/OrcaReplay/blob/main/docs/integrations.md) |
 
 ---
 
