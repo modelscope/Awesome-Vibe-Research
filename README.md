@@ -75,6 +75,7 @@
 | EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;83<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | 面向长程自主科学发现的统一 agent 框架，支持假设生成、自动实验执行、论文复现、记忆模块和 Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐&nbsp;1.4k<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
 | Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;15<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
+| BrainPilot | 开源多智能体科研工作台，覆盖文献调研、实验与数据分析、代码执行和写作，支持自部署、云端体验及 Graph of Trace 执行追踪 | agent/应用 | <!--stars:NeuroAIHub/BrainPilot-->⭐ updating<!--/stars--> | [GitHub](https://github.com/NeuroAIHub/BrainPilot) | [Demo](https://brainpilot.chat) | [arXiv 2026](https://arxiv.org/abs/2607.15079) |
 
 ---
 
