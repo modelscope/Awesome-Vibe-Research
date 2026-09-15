@@ -75,7 +75,7 @@
 | EurekAgent | 环境工程驱动的自主科研系统，面向可度量任务协调 Claude Code 会话提出方案、实现代码、隔离评测并迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;84<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | InternAgent | 面向长程自主科学发现的统一 agent 框架，支持假设生成、自动实验执行、论文复现、记忆模块和 Deep Research | agent | <!--stars:InternScience/InternAgent-->⭐&nbsp;1.4k<!--/stars--> | [GitHub](https://github.com/InternScience/InternAgent) | [Website](https://discovery.intern-ai.org.cn/home) | [arXiv 2026](https://arxiv.org/abs/2602.08990) |
 | Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;15<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
-| BrainPilot | 开源多智能体科研工作台，覆盖文献调研、实验与数据分析、代码执行和写作，支持自部署、云端体验及 Graph of Trace 执行追踪 | agent/应用 | <!--stars:NeuroAIHub/BrainPilot-->⭐ updating<!--/stars--> | [GitHub](https://github.com/NeuroAIHub/BrainPilot) | [Demo](https://brainpilot.chat) | [arXiv 2026](https://arxiv.org/abs/2607.15079) |
+| BrainPilot | 开源多智能体科研工作台，覆盖文献调研、实验与数据分析、代码执行和写作，支持自部署、云端体验及 Graph of Trace 执行追踪 | agent/应用 | <!--stars:NeuroAIHub/BrainPilot-->⭐&nbsp;679<!--/stars--> | [GitHub](https://github.com/NeuroAIHub/BrainPilot) | [Demo](https://brainpilot.chat) | [arXiv 2026](https://arxiv.org/abs/2607.15079) |
 
 ---
 
@@ -96,7 +96,7 @@
 
 | 项目名称 | 描述 | 类型 | Stars | 链接 | Demo | Paper |
 |---|---|---|---|---|---|---|
-| STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;31.3k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
+| STORM | 斯坦福开源知识整理系统，通过多视角问题生成和检索生成带引用报告 | agent | <!--stars:stanford-oval/storm-->⭐&nbsp;31.4k<!--/stars--> | [GitHub](https://github.com/stanford-oval/storm) | [Demo](https://storm.genie.stanford.edu) | [NAACL 2024](https://modelscope.cn/papers/2402.14207/) |
 | paperseek | 面向研究者的文献发现工具，支持自然语言检索、自动迭代查询、扩展候选论文 | agent/skill | <!--stars:MingfengHong/paperseek-->⭐&nbsp;233<!--/stars--> | [GitHub](https://github.com/MingfengHong/paperseek) | [魔搭创空间](https://modelscope.cn/studios/HongMingfeng/PaperSeek) | - |
 | OpenAlex Search Skill | OpenAlex 是开放的全球学术图谱，覆盖论文、作者、机构、期刊和引用关系。该 Codex skill 将 OpenAlex works 检索封装为可复用命令行流程。| skill | <!--stars:XiaokunDuan/openalex_search-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/XiaokunDuan/openalex_search) | [Skill](https://github.com/XiaokunDuan/openalex_search/blob/main/openalex_search/SKILL.md) | - |
 | arXiv Browser Research Skill | 面向 Codex/browser-use 的 arXiv 浏览器兜底检索 skill，在 OpenAlex、Semantic Scholar 或 arXiv API 限流/结果不完整时，用受限域名浏览器流程抽取标题、作者、摘要、arXiv ID 和 PDF 链接。 | skill | <!--stars:pikaqiu2333/arxiv-browser-research-->⭐&nbsp;0<!--/stars--> | [GitHub](https://github.com/pikaqiu2333/arxiv-browser-research) | [Skill](https://github.com/pikaqiu2333/arxiv-browser-research/blob/main/SKILL.md) | - |
@@ -104,7 +104,7 @@
 | PaperQA2 | 面向科学文献的高准确 RAG 问答系统，支持基于论文证据生成带引用回答 | python 包 | <!--stars:Future-House/paper-qa-->⭐&nbsp;9.2k<!--/stars--> | [GitHub](https://github.com/Future-House/paper-qa) | - | - |
 | OpenScholar | 检索增强的科学文献综合系统，用开放语料和检索结果生成引用支撑的 scholarly answer | agent/model | <!--stars:AkariAsai/OpenScholar-->⭐&nbsp;1.6k<!--/stars--> | [GitHub](https://github.com/AkariAsai/OpenScholar) | - | [arXiv 2024](https://arxiv.org/abs/2411.14199) |
 | paper-search-mcp | 面向 agent 的论文检索 MCP/CLI/Skill，支持 arXiv、PubMed、bioRxiv、Semantic Scholar、OpenAlex 等来源 | tool/skill | <!--stars:openags/paper-search-mcp-->⭐&nbsp;2.6k<!--/stars--> | [GitHub](https://github.com/openags/paper-search-mcp) | - | - |
-| Academic Paper Search | 面向 Codex 和 Claude Code 的论文检索 Skill/MCP，跨 Crossref、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 DOI/PMID 核验与引用导出 | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐&nbsp;241<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [开题检索实测](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
+| Academic Paper Search | 面向 Codex 和 Claude Code 的论文检索 Skill/MCP，跨 Crossref、PubMed、arXiv、OpenAlex、Europe PMC 检索去重，支持 DOI/PMID 核验与引用导出 | tool/skill | <!--stars:wp-a/nature-academic-search-->⭐&nbsp;242<!--/stars--> | [GitHub](https://github.com/wp-a/nature-academic-search) | [开题检索实测](https://www.wpironman.top/2026/07/academic-search-topic-scoping-workflow/) | - |
 | Zotero-GPT | Zotero 内的 AI 文献阅读插件，支持在文献库中进行摘要、问答、标签和笔记辅助 | plugin | <!--stars:MuiseDestiny/zotero-gpt-->⭐&nbsp;7.4k<!--/stars--> | [GitHub](https://github.com/MuiseDestiny/zotero-gpt) | - | - |
 
 ---
