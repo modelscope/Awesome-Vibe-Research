@@ -117,6 +117,7 @@
 |---|---|---|---|---|---|---|
 | Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;84.3k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
 | Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐&nbsp;68k<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+| Jev Social | 用于社交媒体研究的浏览器取证 agent：Jev 从有界只读操作中选择 Instagram、TikTok 或 LinkedIn 的搜索、详情与评论读取，本地 `socai CLI` 在研究者已登录的 Chrome 中执行，并保留带来源链接的证据与报告；使用前仍须核对平台条款、数据许可和伦理要求 | agent/tool | <!--stars:socai-io/jev-social-->⭐ updating<!--/stars--> | [GitHub](https://github.com/socai-io/jev-social) | [已记录的 Instagram 报告](https://github.com/socai-io/jev-social/blob/c411ae1532dd37ab94f8164f13552ed05f4c9ecc/docs/example-report.md) | - |
 
 ---
 
