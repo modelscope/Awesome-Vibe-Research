@@ -179,6 +179,7 @@ Code reproduction, demo experience, model & dataset publishing.
 | Paper2Code | Multi-agent system converting academic papers into runnable code repositories | agent | [GitHub](https://github.com/going-doer/Paper2Code) | [Quick Start](https://github.com/going-doer/Paper2Code#-quick-start) |
 | data-to-paper | Multi-AI-agent system that autonomously produces verifiable papers from raw data | python pkg | [GitHub](https://github.com/Technion-Kishony-lab/data-to-paper) | - |
 | Manage AI Research Projects | Agent Skill for Claude Code/Codex to scaffold reproducible research projects, audit metadata and result traceability, and record AI workflow assets | skill | [GitHub](https://github.com/Devin-jun/Manage-AI-Research) | [README](https://github.com/Devin-jun/Manage-AI-Research/blob/main/README.md) |
+| OrcaReplay | Records an entire AI agent run from outside the process — the model requests and responses byte for byte, every tool call, shell exit codes and file changes — then replays it offline: the model replies come from the recording, so the experiment reproduces with no network, no tokens and no API key | tool | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | [Integrations](https://github.com/Continuum-AI-Corp/OrcaReplay/blob/main/docs/integrations.md) |
 
 ---
 
