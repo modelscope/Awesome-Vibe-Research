@@ -117,6 +117,7 @@ Collect raw materials from the web, documents, and open data sources, then parse
 |---|---|---|---|---|---|---|
 | Crawl4AI | Open-source asynchronous web crawler and structured-extraction framework for LLMs/agents, with deep crawling, caching, and controllable sessions; suitable for turning public web materials into traceable research corpora | tool | <!--stars:unclecode/crawl4ai-->⭐ updating<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
 | Docling | Local parser for PDFs, HTML, tables, and common research documents, exporting Markdown or JSON while preserving layout, tables, and formulas; suitable for batch preparation of raw materials for downstream analysis | python pkg | <!--stars:docling-project/docling-->⭐ updating<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+| Voidly Atlas | Open-source MCP server that gives research agents internet-censorship data: country status, domain-blocking checks, and incidents with OONI, Censored Planet and IODA evidence links; incident reports export as BibTeX or RIS for citation | tool | <!--stars:voidly-ai/atlas-mcp-->⭐ updating<!--/stars--> | [GitHub](https://github.com/voidly-ai/atlas-mcp) | - | - |
 
 ---
 
