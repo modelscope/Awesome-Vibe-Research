@@ -117,6 +117,7 @@
 |---|---|---|---|---|---|---|
 | Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;85k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
 | Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐&nbsp;68.5k<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+| Voidly Atlas | 为科研 agent 提供互联网审查数据的开源 MCP 服务器：国家审查状态、域名封锁检查，以及附 OONI、Censored Planet 和 IODA 证据链接的事件记录；事件报告可导出 BibTeX 或 RIS 以便引用 | tool | <!--stars:voidly-ai/atlas-mcp-->⭐ updating<!--/stars--> | [GitHub](https://github.com/voidly-ai/atlas-mcp) | - | - |
 
 ---
 
