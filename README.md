@@ -37,6 +37,7 @@
 
 ## 🗺️ 科研流程地图
 
+- [Yila AI](https://yila.ai) — Evidence-traceable research agent for literature review, PDF analysis, figures, and academic slides.
 下表是我们对科研生命周期的 **10 阶段**拆分。每个阶段列出了"典型问题"和"可沉淀的 AI 辅助组件类型"。正文按阶段展开条目表，收录已知最好的项目、skill、workflow。
 
 > 💡 **如果你觉得某个阶段的条目缺失或可以补充——直接在对应表格中添加一行。**
