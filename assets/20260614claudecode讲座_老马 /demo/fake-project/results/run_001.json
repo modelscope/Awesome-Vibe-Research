@@ -1,0 +1,9 @@
+{
+  "lr": 0.001,
+  "epochs": 20,
+  "hidden": 128,
+  "seed": 1,
+  "final_loss": 0.2731,
+  "best_acc": 0.8842,
+  "train_time_s": 1.0
+}
