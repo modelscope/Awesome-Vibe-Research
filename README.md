@@ -77,6 +77,7 @@
 | Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;19<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
 | BrainPilot | 开源多智能体科研工作台，覆盖文献调研、实验与数据分析、代码执行和写作，支持自部署、云端体验及 Graph of Trace 执行追踪 | agent/应用 | <!--stars:NeuroAIHub/BrainPilot-->⭐&nbsp;1.1k<!--/stars--> | [GitHub](https://github.com/NeuroAIHub/BrainPilot) | [Demo](https://brainpilot.chat) | [arXiv 2026](https://arxiv.org/abs/2607.15079) |
 | Raven | 多智能体 harness 上的自主实验闭环：Host Agent 把任务拆成 DAG，自主完成实验规划、代码编写、运行与评估，并只保留通过验证的改动；同一套流程也可分派给内置的研究、编程、设计、值守 Agent | agent | <!--stars:EverMind-AI/Raven-->⭐&nbsp;5.7k<!--/stars--> | [GitHub](https://github.com/EverMind-AI/Raven) | [Demo](https://raven.evermind.ai) | [arXiv 2026](https://arxiv.org/abs/2609.33439) |
+| Agon | 以 Prompt Economy 为核心的全学科自主科研系统，把 prompt 工程当作工程来做：18 个角色共 230.6 KiB prompt，是跨学科 autoresearch 系统中 prompt 体量最小的；不改提示词已覆盖 10 多个学科，最长一次无人值守运行 30 天 | agent | <!--stars:AutoResearch-Factory/Agon-->⭐ updating<!--/stars--> | [GitHub](https://github.com/AutoResearch-Factory/Agon) | [Website](https://haizhaoyang.github.io/research/autoresearch.html) | [arXiv 2026](https://modelscope.cn/papers/2606.24177/) |
 
 ---
 
@@ -141,6 +142,8 @@
 | EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;84<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | Jacobian | 面向多项式映射、线性代数和图算法的精确计算与猜想检验工具，提供 MCP 服务器、命令行工具和 Python 库 | tool | <!--stars:morluto/jacobian-->⭐&nbsp;319<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
 | STEER | 面向 Cursor/Claude Code 的 AI4R 实验框架：接入已有训练项目，agent 在固定任务与评分契约下改代码并训练，台账与审查门控保留证据 | agent | <!--stars:xieyulai/steer-->⭐&nbsp;28<!--/stars--> | [GitHub](https://github.com/xieyulai/steer) | - | - |
+| AgonAlpha | alpha 挖掘系统；在 WorldQuant BRAIN 上 60 次提交拿到 17 个 SPECTACULAR，Fitness 最高 9.50，Sharpe 最高 3.48 | agent | <!--stars:AutoResearch-Factory/AgonAlpha-->⭐ updating<!--/stars--> | [GitHub](https://github.com/AutoResearch-Factory/AgonAlpha) | - | [arXiv 2026](https://arxiv.org/abs/2608.11250) |
+| AutoSR | 以 Research State 为搜索单位的符号回归 agent（Claude Code 插件）；精确恢复 12 个已发表 SR 系统都没解出的 3 道 cp3-bench，MSE 降到 1e-19 至 1e-32 | agent/plugin | <!--stars:AutoResearch-Factory/AutoSR-->⭐ updating<!--/stars--> | [GitHub](https://github.com/AutoResearch-Factory/AutoSR) | - | [arXiv 2026](https://modelscope.cn/papers/2608.16876/) |
 
 ---
 
