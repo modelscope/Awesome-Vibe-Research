@@ -141,6 +141,7 @@
 | EurekAgent | 面向可度量科研任务的实验执行环境，支持 Claude Code 会话自动实现方案、Docker 隔离评测、日志追踪和迭代优化 | agent | <!--stars:THU-Team-Eureka/EurekAgent-->⭐&nbsp;85<!--/stars--> | [GitHub](https://github.com/THU-Team-Eureka/EurekAgent) | - | [arXiv 2026](https://arxiv.org/abs/2606.13662) |
 | Jacobian | 面向多项式映射、线性代数和图算法的精确计算与猜想检验工具，提供 MCP 服务器、命令行工具和 Python 库 | tool | <!--stars:morluto/jacobian-->⭐&nbsp;323<!--/stars--> | [GitHub](https://github.com/morluto/jacobian) | - | - |
 | STEER | 面向 Cursor/Claude Code 的 AI4R 实验框架：接入已有训练项目，agent 在固定任务与评分契约下改代码并训练，台账与审查门控保留证据 | agent | <!--stars:xieyulai/steer-->⭐&nbsp;28<!--/stars--> | [GitHub](https://github.com/xieyulai/steer) | - | - |
+| AgentFEM | 面向研究者与 AI 助手的有限元计算工具，用于结构、传热和振动分析；保留可编辑模型、计算结果与核验记录，附带可复用教学案例 | tool | <!--stars:haoming-luo/agentfem-->⭐ updating<!--/stars--> | [GitHub](https://github.com/haoming-luo/agentfem) | [六个计算案例](https://lab.haoming-luo.com/learn/) | - |
 
 ---
 
