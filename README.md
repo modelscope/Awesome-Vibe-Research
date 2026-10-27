@@ -152,6 +152,7 @@
 |---|---|---|---|---|---|---|
 | PaperBanana | 多 agent 学术插图自动化生成框架，从文本描述生成出版级图表和统计图 | agent | <!--stars:dwzhu-pku/PaperBanana-->⭐&nbsp;7.4k<!--/stars--> | [GitHub](https://github.com/dwzhu-pku/PaperBanana) | [Demo](https://dwzhu-pku.github.io/PaperBanana/) | [arXiv 2025](https://modelscope.cn/papers/2601.23265/) |
 | codex-paper-figure-skill | 面向 Codex 的论文插图生成 Skill，将论文段落、方法描述和图示想法转化为可编辑的 draw.io 学术图 | skill | <!--stars:pengqianhan/codex-paper-figure-skill-->⭐&nbsp;22<!--/stars--> | [GitHub](https://github.com/pengqianhan/codex-paper-figure-skill) | - | - |
+| mpltweak | 拖拽式调整 matplotlib 多子图布局（位置/字号/图例/样式），确认后把数值精确写回脚本源码；面向论文配图排版 | skill | <!--stars:shdbl/mpltweak-->⭐&nbsp;2<!--/stars--> | [GitHub](https://github.com/shdbl/mpltweak) · [PyPI](https://pypi.org/project/mpltweak/) | - | - |
 
 ---
 
