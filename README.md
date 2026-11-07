@@ -118,6 +118,7 @@
 |---|---|---|---|---|---|---|
 | Crawl4AI | 面向 LLM/agent 的开源异步网页爬虫和结构化提取框架，支持深度抓取、缓存与可控会话，适合将公开网页资料转为可追溯的研究语料 | tool | <!--stars:unclecode/crawl4ai-->⭐&nbsp;87k<!--/stars--> | [GitHub](https://github.com/unclecode/crawl4ai) | [Docs](https://docs.crawl4ai.com/) | - |
 | Docling | 可本地解析 PDF、HTML、表格和科研常见文档，输出保留版面、表格和公式结构的 Markdown 或 JSON，适合把原始材料批量制备为后续分析输入 | python 包 | <!--stars:docling-project/docling-->⭐&nbsp;70.2k<!--/stars--> | [GitHub](https://github.com/docling-project/docling) | [Docs](https://docling-project.github.io/docling/) | [arXiv 2024](https://arxiv.org/abs/2408.09869) |
+| Firecrawl | 面向 AI agent 的开源 context API，可搜索、抓取和爬取公开网页，把网页及 PDF 等文档转为 Markdown 或结构化 JSON 并保留来源 URL，适合批量制备研究语料；另提供 MCP 服务器和 Skills，供 AI agent 直接调用 | tool | <!--stars:firecrawl/firecrawl-->⭐ updating<!--/stars--> | [GitHub](https://github.com/firecrawl/firecrawl) · [MCP](https://github.com/firecrawl/firecrawl-mcp-server) · [Skills](https://github.com/firecrawl/skills) | [Website](https://www.firecrawl.dev/?utm_source=awesome-vibe-research&utm_medium=integration) · [Docs](https://docs.firecrawl.dev/introduction?utm_source=awesome-vibe-research&utm_medium=integration) | - |
 
 ---
 
