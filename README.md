@@ -77,6 +77,7 @@
 | Tashan Research Skills | 国科大他山团队自研的 16 个科研 skills，按文献证据、研究构思、成果表达、协作沉淀、工具测评五类整理，每个技能自带脚本、模板和测试 | skill | <!--stars:TashanGKD/tashan-research-skills-->⭐&nbsp;22<!--/stars--> | [GitHub](https://github.com/TashanGKD/tashan-research-skills) | - | - |
 | BrainPilot | 开源多智能体科研工作台，覆盖文献调研、实验与数据分析、代码执行和写作，支持自部署、云端体验及 Graph of Trace 执行追踪 | agent/应用 | <!--stars:NeuroAIHub/BrainPilot-->⭐&nbsp;1.1k<!--/stars--> | [GitHub](https://github.com/NeuroAIHub/BrainPilot) | [Demo](https://brainpilot.chat) | [arXiv 2026](https://arxiv.org/abs/2607.15079) |
 | Raven | 多智能体 harness 上的自主实验闭环：Host Agent 把任务拆成 DAG，自主完成实验规划、代码编写、运行与评估，并只保留通过验证的改动；同一套流程也可分派给内置的研究、编程、设计、值守 Agent | agent | <!--stars:EverMind-AI/Raven-->⭐&nbsp;6.2k<!--/stars--> | [GitHub](https://github.com/EverMind-AI/Raven) | [Demo](https://raven.evermind.ai) | [arXiv 2026](https://arxiv.org/abs/2609.33439) |
+| Lykeion | 开源协作科研工作台，研究人员与 AI 智能体在同一研究项目中完成文献调研、提出假设、运行实验和验证结果，并保留可追溯的证据与运行记录 | agent/应用 | <!--stars:lykeion-tech/lykeion-->⭐ updating<!--/stars--> | [GitHub](https://github.com/lykeion-tech/lykeion) | [快速入门](https://app.lykeion.tech/docs/quickstart/) | - |
 
 ---
 
