@@ -88,6 +88,7 @@ Trend tracking, research inspiration, novelty verification, hypothesis generatio
 |---|---|---|---|---|---|---|
 | SciAgentsDiscovery | MIT open-source scientific discovery system combining knowledge graphs and multi-agent collaboration for cross-domain hypothesis generation | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;615<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
 | AutoDiscovery | AllenAI open-ended scientific discovery framework using Bayesian Surprise to find testable hypotheses from data | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;185<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2024](https://arxiv.org/abs/2406.13266) |
+| last30days | Trend research skill for Claude Code, Codex, Cursor, Gemini CLI and other Agent Skills hosts. Searches the last 30 days of Reddit, X, YouTube, Hacker News, Polymarket, GitHub and the web, ranks results by real engagement (upvotes, likes, prediction-market odds) and writes one cited brief, useful for seeing what a community is discussing before picking a topic | skill | <!--stars:mvanhorn/last30days-skill-->⭐&nbsp;72.7k<!--/stars--> | [GitHub](https://github.com/mvanhorn/last30days-skill) | [Skill](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) | - |
 
 ---
 
