@@ -88,6 +88,7 @@
 |---|---|---|---|---|---|---|
 | SciAgentsDiscovery | MIT 开源的科学发现多智能体系统，结合知识图谱与 agent 协作用于跨学科假说生成 | agent | <!--stars:lamm-mit/SciAgentsDiscovery-->⭐&nbsp;642<!--/stars--> | [GitHub](https://github.com/lamm-mit/SciAgentsDiscovery) | - | [arXiv 2024](https://arxiv.org/abs/2409.05556) |
 | AutoDiscovery | AllenAI 开源的开放式科学发现框架，通过 Bayesian Surprise 从数据中发现可验证假说 | benchmark/workflow | <!--stars:allenai/autodiscovery-neurips-->⭐&nbsp;216<!--/stars--> | [GitHub](https://github.com/allenai/autodiscovery-neurips) | - | [NeurIPS 2024](https://arxiv.org/abs/2406.13266) |
+| last30days | 面向 Claude Code、Codex、Cursor、Gemini CLI 等 Agent Skills 宿主的趋势调研 skill，检索 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 与网页上最近 30 天的讨论，按真实互动（点赞、投票、预测市场赔率）排序并生成带引用的简报，适合选题前快速了解社区正在讨论什么 | skill | <!--stars:mvanhorn/last30days-skill-->⭐&nbsp;72.7k<!--/stars--> | [GitHub](https://github.com/mvanhorn/last30days-skill) | [Skill](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) | - |
 
 ---
 
